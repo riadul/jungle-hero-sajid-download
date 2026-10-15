@@ -4,6 +4,18 @@
 
 **A 3D cartoon adventure in the Sundarbans.** Published by **[Abacus IT](https://abacusitbd.com)**, Dhaka, Bangladesh.
 
+## ⬇️ Download (version 0.1.3, free)
+
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20121%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.1.3/JungleHeroSajid-Setup-0.1.3-x64.exe)
+
+[![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Ubuntu%20%2F%20Linux-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=white)](https://snapcraft.io/jungle-hero-sajid)
+[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(145%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.1.3/JungleHeroSajid-0.1.3-linux-x86_64.AppImage)
+[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(116%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.1.3/jungle-hero-sajid_0.1.3_amd64.deb)
+
+**Windows:** open the downloaded `JungleHeroSajid-Setup-0.1.3-x64.exe` and follow
+the installer. If Windows shows *"Windows protected your PC"*, click
+**More info → Run anyway** (the installer isn't code-signed yet).
+
 Five-year-old Sajid was on a ship trip through the Sundarbans with his Baba
 (dad), Riad. On the forest walkway at Harbaria a storm came, a deer ran, and
 Sajid ran after it. When he came back, the ship had gone, sailing on to Hiron
