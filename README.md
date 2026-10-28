@@ -4,15 +4,15 @@
 
 **A 3D cartoon adventure in the Sundarbans.** Published by **[Abacus IT](https://abacusitbd.com)**, Dhaka, Bangladesh.
 
-## ⬇️ Download (version 0.1.3, free)
+## ⬇️ Download (version 0.2.0, free) — new Blender graphics
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20121%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.1.3/JungleHeroSajid-Setup-0.1.3-x64.exe)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20187%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.2.0/JungleHeroSajid-Setup-0.2.0-x64.exe)
 
 [![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Ubuntu%20%2F%20Linux-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=white)](https://snapcraft.io/jungle-hero-sajid)
-[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(145%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.1.3/JungleHeroSajid-0.1.3-linux-x86_64.AppImage)
-[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(116%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.1.3/jungle-hero-sajid_0.1.3_amd64.deb)
+[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(228%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.2.0/JungleHeroSajid-0.2.0-linux-x86_64.AppImage)
+[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(160%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.2.0/jungle-hero-sajid_0.2.0_amd64.deb)
 
-**Windows:** open the downloaded `JungleHeroSajid-Setup-0.1.3-x64.exe` and follow
+**Windows:** open the downloaded `JungleHeroSajid-Setup-0.2.0-x64.exe` and follow
 the installer. If Windows shows *"Windows protected your PC"*, click
 **More info → Run anyway** (the installer isn't code-signed yet).
 
@@ -48,9 +48,21 @@ Dublar Char, Nilkamal, all the way to Hiron Point, where Baba is waiting.
 | **Linux (any distro)** | `JungleHeroSajid-<version>-linux-x86_64.AppImage`: `chmod +x` it and run |
 | **Ubuntu / Debian** | `sudo apt install ./jungle-hero-sajid_<version>_amd64.deb` |
 
-**System requirements:** 64-bit Windows 10/11 or Linux; 4 GB RAM (8 GB
-recommended); a graphics card with WebGL 2 (GTX 960 / RX 470 / Intel Iris Xe or
-better); 600 MB disk.
+## 💻 PC needed
+
+| | Minimum (Low preset) | Recommended (High, 60 FPS) |
+|---|---|---|
+| OS | Windows 10 64-bit / Ubuntu 22.04 64-bit | Windows 11 / Ubuntu 24.04 |
+| CPU | 4 cores, 2.5 GHz | 6 cores, 3 GHz |
+| RAM | 8 GB | 16 GB |
+| Graphics | GTX 1050 Ti / RX 570 / Intel Iris Xe, 4 GB, WebGL 2 | GTX 1660 / RTX 2060 / RX 6600 or better |
+| Disk | 1 GB free | 1 GB free |
+
+On a slower PC, open Settings → Graphics and choose **Low** (or turn
+Ambient occlusion off).
+
+**What's new in 0.2.0:** every model and texture rebuilt in Blender: a new
+forest, ground, water and sky, new Sajid and Baba, new animals and boats.
 
 ## Screenshots
 
