@@ -1,0 +1,1135 @@
+{
+ "area": "veg",
+ "generator": "tools/blender/veg/build.py (textures.py, species.py, verify.py)",
+ "units": "metres, glTF Y-up, origin at trunk base centre on the ground (y=0)",
+ "textures": {
+  "leaf_atlas": "textures/leaf_atlas.png (2048 RGBA, painted clusters/fronds/grass/flowers; alpha MASK 0.5)",
+  "bark": "textures/bark_color.jpg + bark_normal.png (1024 tileable)",
+  "palm_bark": "textures/palm_color.jpg + palm_normal.png (1024 tileable, ring scars)",
+  "atlas_cells": {
+   "mangrove": [
+    0.0,
+    0.75,
+    0.25,
+    1.0
+   ],
+   "sundari": [
+    0.25,
+    0.75,
+    0.5,
+    1.0
+   ],
+   "keora": [
+    0.5,
+    0.75,
+    0.75,
+    1.0
+   ],
+   "broad": [
+    0.75,
+    0.75,
+    1.0,
+    1.0
+   ],
+   "bush": [
+    0.0,
+    0.5,
+    0.25,
+    0.75
+   ],
+   "ochre": [
+    0.25,
+    0.5,
+    0.5,
+    0.75
+   ],
+   "fern": [
+    0.5,
+    0.5,
+    0.75,
+    0.75
+   ],
+   "mangrove2": [
+    0.75,
+    0.5,
+    1.0,
+    0.75
+   ],
+   "grass": [
+    0.0,
+    0.25,
+    0.25,
+    0.5
+   ],
+   "grass2": [
+    0.25,
+    0.25,
+    0.5,
+    0.5
+   ],
+   "flower_w": [
+    0.5,
+    0.25,
+    0.75,
+    0.5
+   ],
+   "flower_p": [
+    0.75,
+    0.25,
+    1.0,
+    0.5
+   ],
+   "coconut": [
+    0.0,
+    0.0,
+    0.5,
+    0.25
+   ],
+   "nipa": [
+    0.5,
+    0.0,
+    1.0,
+    0.25
+   ]
+  },
+  "atlas_note": "cells are (u0,v0,u1,v1) in Blender UV space (v up); in glTF v is flipped (v' = 1 - v)"
+ },
+ "conventions": "meshes split by material: wood (bark), leaves (leaf atlas, alpha MASK, double-sided), flowers (leaf atlas). COLOR_0 = baked inner shading/AO tint, multiply into base colour. Leaf normals are bent toward the canopy shape (sphere-like shading).",
+ "assets": [
+  {
+   "name": "mangrove_a",
+   "file": "mangrove_a.glb",
+   "tris": 7999,
+   "bbox": [
+    -4.429,
+    -0.08,
+    -3.985,
+    4.163,
+    7.5,
+    3.503
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1311348,
+   "notes": "Rhizophora mangrove, 7 m, arching stilt roots",
+   "lod1": "mangrove_a_lod1.glb"
+  },
+  {
+   "name": "mangrove_a_lod1",
+   "file": "mangrove_a_lod1.glb",
+   "tris": 2799,
+   "bbox": [
+    -4.991,
+    -0.08,
+    -4.093,
+    4.436,
+    7.902,
+    3.978
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1088012,
+   "notes": "Rhizophora mangrove, 7 m, arching stilt roots; LOD1 (~35% tris) of mangrove_a"
+  },
+  {
+   "name": "mangrove_b",
+   "file": "mangrove_b.glb",
+   "tris": 7998,
+   "bbox": [
+    -4.523,
+    -0.08,
+    -4.982,
+    4.272,
+    9.026,
+    4.956
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1313536,
+   "notes": "Rhizophora mangrove, 8.6 m",
+   "lod1": "mangrove_b_lod1.glb"
+  },
+  {
+   "name": "mangrove_b_lod1",
+   "file": "mangrove_b_lod1.glb",
+   "tris": 2799,
+   "bbox": [
+    -5.838,
+    -0.08,
+    -5.324,
+    4.999,
+    9.354,
+    5.05
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1083092,
+   "notes": "Rhizophora mangrove, 8.6 m; LOD1 (~35% tris) of mangrove_b"
+  },
+  {
+   "name": "mangrove_c",
+   "file": "mangrove_c.glb",
+   "tris": 7997,
+   "bbox": [
+    -5.05,
+    -0.08,
+    -4.205,
+    4.973,
+    10.287,
+    5.813
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1310012,
+   "notes": "Rhizophora mangrove, 10 m, slight lean",
+   "lod1": "mangrove_c_lod1.glb"
+  },
+  {
+   "name": "mangrove_c_lod1",
+   "file": "mangrove_c_lod1.glb",
+   "tris": 2797,
+   "bbox": [
+    -5.913,
+    -0.08,
+    -5.08,
+    5.404,
+    10.786,
+    6.95
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1084644,
+   "notes": "Rhizophora mangrove, 10 m, slight lean; LOD1 (~35% tris) of mangrove_c"
+  },
+  {
+   "name": "mangrove_d",
+   "file": "mangrove_d.glb",
+   "tris": 7997,
+   "bbox": [
+    -7.102,
+    -0.08,
+    -7.407,
+    5.571,
+    11.49,
+    5.29
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1301936,
+   "notes": "Rhizophora mangrove, 11 m, leaning over water",
+   "lod1": "mangrove_d_lod1.glb"
+  },
+  {
+   "name": "mangrove_d_lod1",
+   "file": "mangrove_d_lod1.glb",
+   "tris": 2797,
+   "bbox": [
+    -6.978,
+    -0.08,
+    -6.958,
+    5.976,
+    12.187,
+    5.85
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1081324,
+   "notes": "Rhizophora mangrove, 11 m, leaning over water; LOD1 (~35% tris) of mangrove_d"
+  },
+  {
+   "name": "sundari_a",
+   "file": "sundari_a.glb",
+   "tris": 7998,
+   "bbox": [
+    -3.605,
+    -0.08,
+    -3.23,
+    4.108,
+    11.861,
+    3.347
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1381816,
+   "notes": "Heritiera fomes, 10.5 m, buttress base",
+   "lod1": "sundari_a_lod1.glb"
+  },
+  {
+   "name": "sundari_a_lod1",
+   "file": "sundari_a_lod1.glb",
+   "tris": 2798,
+   "bbox": [
+    -3.727,
+    -0.08,
+    -3.283,
+    4.168,
+    12.207,
+    3.725
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1118248,
+   "notes": "Heritiera fomes, 10.5 m, buttress base; LOD1 (~35% tris) of sundari_a"
+  },
+  {
+   "name": "sundari_b",
+   "file": "sundari_b.glb",
+   "tris": 7998,
+   "bbox": [
+    -3.881,
+    -0.08,
+    -4.304,
+    4.099,
+    14.203,
+    4.189
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1385900,
+   "notes": "Heritiera fomes, 12.5 m",
+   "lod1": "sundari_b_lod1.glb"
+  },
+  {
+   "name": "sundari_b_lod1",
+   "file": "sundari_b_lod1.glb",
+   "tris": 2798,
+   "bbox": [
+    -4.33,
+    -0.08,
+    -4.087,
+    4.118,
+    14.285,
+    3.989
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1118248,
+   "notes": "Heritiera fomes, 12.5 m; LOD1 (~35% tris) of sundari_b"
+  },
+  {
+   "name": "sundari_c",
+   "file": "sundari_c.glb",
+   "tris": 7998,
+   "bbox": [
+    -5.101,
+    -0.08,
+    -5.324,
+    4.722,
+    16.552,
+    5.001
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1381820,
+   "notes": "Heritiera fomes, 15 m",
+   "lod1": "sundari_c_lod1.glb"
+  },
+  {
+   "name": "sundari_c_lod1",
+   "file": "sundari_c_lod1.glb",
+   "tris": 2798,
+   "bbox": [
+    -5.007,
+    -0.08,
+    -5.281,
+    5.536,
+    17.733,
+    4.794
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1118248,
+   "notes": "Heritiera fomes, 15 m; LOD1 (~35% tris) of sundari_c"
+  },
+  {
+   "name": "keora_a",
+   "file": "keora_a.glb",
+   "tris": 7997,
+   "bbox": [
+    -4.338,
+    -0.08,
+    -3.598,
+    3.47,
+    7.786,
+    3.698
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1365300,
+   "notes": "Sonneratia apetala, drooping branchlets, 7.5 m",
+   "lod1": "keora_a_lod1.glb"
+  },
+  {
+   "name": "keora_a_lod1",
+   "file": "keora_a_lod1.glb",
+   "tris": 2797,
+   "bbox": [
+    -4.166,
+    -0.08,
+    -3.811,
+    3.34,
+    8.118,
+    4.712
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1116680,
+   "notes": "Sonneratia apetala, drooping branchlets, 7.5 m; LOD1 (~35% tris) of keora_a"
+  },
+  {
+   "name": "keora_b",
+   "file": "keora_b.glb",
+   "tris": 7997,
+   "bbox": [
+    -5.031,
+    -0.08,
+    -5.282,
+    5.026,
+    10.22,
+    4.63
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1365296,
+   "notes": "Sonneratia apetala, 10 m",
+   "lod1": "keora_b_lod1.glb"
+  },
+  {
+   "name": "keora_b_lod1",
+   "file": "keora_b_lod1.glb",
+   "tris": 2797,
+   "bbox": [
+    -5.765,
+    -0.08,
+    -6.209,
+    4.454,
+    10.622,
+    4.529
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1116680,
+   "notes": "Sonneratia apetala, 10 m; LOD1 (~35% tris) of keora_b"
+  },
+  {
+   "name": "golpata_a",
+   "file": "golpata_a.glb",
+   "tris": 2272,
+   "bbox": [
+    -5.223,
+    -0.08,
+    -5.905,
+    6.15,
+    4.266,
+    5.111
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 966164,
+   "notes": "Nypa palm, fronds straight from the mud, ~4.3 m",
+   "lod1": "golpata_a_lod1.glb"
+  },
+  {
+   "name": "golpata_a_lod1",
+   "file": "golpata_a_lod1.glb",
+   "tris": 624,
+   "bbox": [
+    -5.339,
+    -0.08,
+    -5.707,
+    6.162,
+    4.543,
+    6.234
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 913388,
+   "notes": "Nypa palm, fronds straight from the mud, ~4.3 m; LOD1 (~35% tris) of golpata_a"
+  },
+  {
+   "name": "golpata_b",
+   "file": "golpata_b.glb",
+   "tris": 2136,
+   "bbox": [
+    -6.623,
+    -0.08,
+    -8.119,
+    7.016,
+    5.481,
+    7.05
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 961512,
+   "notes": "Nypa palm, ~6 m",
+   "lod1": "golpata_b_lod1.glb"
+  },
+  {
+   "name": "golpata_b_lod1",
+   "file": "golpata_b_lod1.glb",
+   "tris": 624,
+   "bbox": [
+    -8.193,
+    -0.08,
+    -7.475,
+    6.726,
+    5.746,
+    7.213
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 913388,
+   "notes": "Nypa palm, ~6 m; LOD1 (~35% tris) of golpata_b"
+  },
+  {
+   "name": "coconut_a",
+   "file": "coconut_a.glb",
+   "tris": 2808,
+   "bbox": [
+    -2.05,
+    -0.08,
+    -4.265,
+    4.623,
+    8.625,
+    2.687
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "leaves",
+    "palm_bark"
+   ],
+   "animations": [],
+   "bytes": 814248,
+   "notes": "Coconut palm, curved ringed trunk, coconuts",
+   "lod1": "coconut_a_lod1.glb"
+  },
+  {
+   "name": "coconut_a_lod1",
+   "file": "coconut_a_lod1.glb",
+   "tris": 908,
+   "bbox": [
+    -2.237,
+    -0.08,
+    -4.27,
+    4.598,
+    8.471,
+    2.53
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "leaves",
+    "palm_bark"
+   ],
+   "animations": [],
+   "bytes": 753280,
+   "notes": "Coconut palm, curved ringed trunk, coconuts; LOD1 (~35% tris) of coconut_a"
+  },
+  {
+   "name": "coconut_b",
+   "file": "coconut_b.glb",
+   "tris": 2752,
+   "bbox": [
+    -5.491,
+    -0.08,
+    -4.376,
+    1.657,
+    9.984,
+    2.025
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "leaves",
+    "palm_bark"
+   ],
+   "animations": [],
+   "bytes": 812072,
+   "notes": "Coconut palm, taller, stronger curve",
+   "lod1": "coconut_b_lod1.glb"
+  },
+  {
+   "name": "coconut_b_lod1",
+   "file": "coconut_b_lod1.glb",
+   "tris": 908,
+   "bbox": [
+    -5.418,
+    -0.08,
+    -4.103,
+    1.686,
+    10.084,
+    1.68
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "leaves",
+    "palm_bark"
+   ],
+   "animations": [],
+   "bytes": 753280,
+   "notes": "Coconut palm, taller, stronger curve; LOD1 (~35% tris) of coconut_b"
+  },
+  {
+   "name": "broadleaf_a",
+   "file": "broadleaf_a.glb",
+   "tris": 8000,
+   "bbox": [
+    -4.216,
+    -0.08,
+    -4.332,
+    4.197,
+    7.86,
+    3.807
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1397828,
+   "notes": "Round fluffy shade tree",
+   "lod1": "broadleaf_a_lod1.glb"
+  },
+  {
+   "name": "broadleaf_a_lod1",
+   "file": "broadleaf_a_lod1.glb",
+   "tris": 2800,
+   "bbox": [
+    -4.805,
+    -0.08,
+    -4.767,
+    4.855,
+    8.671,
+    4.506
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1116900,
+   "notes": "Round fluffy shade tree; LOD1 (~35% tris) of broadleaf_a"
+  },
+  {
+   "name": "broadleaf_b",
+   "file": "broadleaf_b.glb",
+   "tris": 7998,
+   "bbox": [
+    -5.548,
+    -0.08,
+    -4.815,
+    5.938,
+    9.331,
+    5.099
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1395220,
+   "notes": "Round fluffy shade tree, larger",
+   "lod1": "broadleaf_b_lod1.glb"
+  },
+  {
+   "name": "broadleaf_b_lod1",
+   "file": "broadleaf_b_lod1.glb",
+   "tris": 2798,
+   "bbox": [
+    -6.162,
+    -0.08,
+    -5.293,
+    6.729,
+    10.036,
+    5.789
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1115008,
+   "notes": "Round fluffy shade tree, larger; LOD1 (~35% tris) of broadleaf_b"
+  },
+  {
+   "name": "bush_a",
+   "file": "bush_a.glb",
+   "tris": 1750,
+   "bbox": [
+    -1.487,
+    -0.08,
+    -1.351,
+    1.352,
+    1.595,
+    1.382
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1001756,
+   "notes": "Round green bush ~1.5 m"
+  },
+  {
+   "name": "bush_b",
+   "file": "bush_b.glb",
+   "tris": 1999,
+   "bbox": [
+    -0.957,
+    -0.08,
+    -1.028,
+    0.902,
+    1.11,
+    0.908
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1018496,
+   "notes": "Small green bush ~1.1 m"
+  },
+  {
+   "name": "bush_c",
+   "file": "bush_c.glb",
+   "tris": 2000,
+   "bbox": [
+    -1.128,
+    -0.08,
+    -1.212,
+    1.24,
+    1.453,
+    1.204
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 1018856,
+   "notes": "Yellow-ochre bush"
+  },
+  {
+   "name": "grass_a",
+   "file": "grass_a.glb",
+   "tris": 80,
+   "bbox": [
+    -0.2,
+    -0.004,
+    -0.241,
+    0.23,
+    0.431,
+    0.202
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "materials": [
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 390156,
+   "notes": "Grass tuft 0.4 m"
+  },
+  {
+   "name": "grass_b",
+   "file": "grass_b.glb",
+   "tris": 96,
+   "bbox": [
+    -0.342,
+    -0.009,
+    -0.376,
+    0.384,
+    0.686,
+    0.36
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "materials": [
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 391212,
+   "notes": "Grass tuft 0.65 m"
+  },
+  {
+   "name": "grass_c",
+   "file": "grass_c.glb",
+   "tris": 112,
+   "bbox": [
+    -0.5,
+    -0.011,
+    -0.405,
+    0.472,
+    0.936,
+    0.439
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "materials": [
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 392268,
+   "notes": "Tall grass tuft 0.9 m"
+  },
+  {
+   "name": "flowers_a",
+   "file": "flowers_a.glb",
+   "tris": 120,
+   "bbox": [
+    -0.487,
+    -0.0,
+    -0.605,
+    0.533,
+    0.339,
+    0.451
+   ],
+   "meshes": [
+    "flowers",
+    "leaves"
+   ],
+   "materials": [
+    "flowers",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 393920,
+   "notes": "White flower patch"
+  },
+  {
+   "name": "flowers_b",
+   "file": "flowers_b.glb",
+   "tris": 120,
+   "bbox": [
+    -0.496,
+    -0.0,
+    -0.598,
+    0.566,
+    0.33,
+    0.612
+   ],
+   "meshes": [
+    "flowers",
+    "leaves"
+   ],
+   "materials": [
+    "flowers",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 393924,
+   "notes": "Pink flower patch"
+  },
+  {
+   "name": "fern_a",
+   "file": "fern_a.glb",
+   "tris": 880,
+   "bbox": [
+    -0.743,
+    -0.034,
+    -0.819,
+    0.741,
+    0.386,
+    0.751
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "materials": [
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 414360,
+   "notes": "Fern, ~0.6 m"
+  },
+  {
+   "name": "fern_b",
+   "file": "fern_b.glb",
+   "tris": 1120,
+   "bbox": [
+    -1.225,
+    -0.057,
+    -1.1,
+    1.052,
+    0.528,
+    1.234
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "materials": [
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 422400,
+   "notes": "Large fern, ~0.9 m"
+  },
+  {
+   "name": "pneumatophores",
+   "file": "pneumatophores.glb",
+   "tris": 2000,
+   "bbox": [
+    -1.485,
+    -0.072,
+    -1.475,
+    1.48,
+    0.366,
+    1.496
+   ],
+   "meshes": [
+    "wood"
+   ],
+   "materials": [
+    "bark"
+   ],
+   "animations": [],
+   "bytes": 591492,
+   "notes": "3x3 m patch of pencil breathing roots"
+  },
+  {
+   "name": "log_fallen",
+   "file": "log_fallen.glb",
+   "tris": 415,
+   "bbox": [
+    -2.116,
+    -0.027,
+    -0.657,
+    2.352,
+    0.737,
+    0.277
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 903728,
+   "notes": "Fallen log 4.2 m with moss and sprouts"
+  },
+  {
+   "name": "stump",
+   "file": "stump.glb",
+   "tris": 232,
+   "bbox": [
+    -0.593,
+    -0.05,
+    -0.448,
+    0.655,
+    0.65,
+    0.716
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "materials": [
+    "bark",
+    "leaves"
+   ],
+   "animations": [],
+   "bytes": 896932,
+   "notes": "Broken tree stump with root flares"
+  }
+ ]
+}

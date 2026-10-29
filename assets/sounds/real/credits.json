@@ -1,0 +1,70 @@
+{
+  "lion": {
+    "file": "Lionroar.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:Lionroar.wav",
+    "author": "Jonathan Growcott, Alex Lobora, Andrew Markham, Charlotte E. Searle, Johan Wahlström, Matthew Wijers, Benno I. Simmons",
+    "license": "CC BY 4.0"
+  },
+  "tiger": {
+    "file": "439280 schots angry-tiger.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:439280_schots_angry-tiger.wav",
+    "author": "schots",
+    "license": "CC0"
+  },
+  "wolf": {
+    "file": "Wolf howls.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg",
+    "author": "unknown",
+    "license": "Public domain"
+  },
+  "dog": {
+    "file": "Barking of a dog.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog.ogg",
+    "author": "Amada44",
+    "license": "CC BY-SA 3.0"
+  },
+  "cat": {
+    "file": "Meow.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Meow.ogg",
+    "author": "The original uploader was Dcrosby at English Wikipedia.",
+    "license": "CC BY-SA 3.0"
+  },
+  "bear": {
+    "file": "Bear growl.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bear_growl.ogg",
+    "author": "Shizhao",
+    "license": "CC BY 3.0"
+  },
+  "fox": {
+    "file": "Red Fox (Vulpes vulpes) (W1CDR0001529 BD12).ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Fox_(Vulpes_vulpes)_(W1CDR0001529_BD12).ogg",
+    "author": "unknown",
+    "license": "CC BY-SA 4.0"
+  },
+  "gator": {
+    "file": "Alligatorbellowedit.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alligatorbellowedit.ogg",
+    "author": "Borisblue",
+    "license": "Public domain"
+  },
+  "elephant": {
+    "file": "Elephant voice - trumpeting.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Elephant_voice_-_trumpeting.ogg",
+    "author": "தகவலுழவன்",
+    "license": "CC0"
+  },
+  "pistol": {
+    "file": "single-pistol-gunshot-3 (freesound_community, 101923)",
+    "page": "https://pixabay.com/sound-effects/single-pistol-gunshot-3-101923/",
+    "author": "freesound_community",
+    "license": "Pixabay Content License",
+    "note": "Supplied by the project owner. Trimmed: 43ms of lead-in silence removed so the shot fires the instant the trigger is pressed, silent tail cut, 4ms fade-out to avoid a click."
+  },
+  "punch": {
+    "file": "alice_soundz-kick_m_05-224065.mp3",
+    "page": "https://pixabay.com/sound-effects/alice_soundz-kick_m_05-224065/",
+    "author": "alice_soundz",
+    "license": "Pixabay Content License",
+    "note": "Supplied by the project owner for Spider-Man hand melee punch and Sajid cricket bat close combat strike. Trimmed: 26ms of lead-in silence removed for instant hit response, silent tail cut, 2ms fade-in and 24ms fade-out."
+  }
+}

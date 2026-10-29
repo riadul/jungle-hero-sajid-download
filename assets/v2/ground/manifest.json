@@ -1,0 +1,551 @@
+{
+  "area": "ground",
+  "version": "0.2.0",
+  "generator": "blender -b --factory-startup -P tools/blender/ground/build.py",
+  "conventions": {
+    "units": "metres",
+    "up": "+Y (glTF)",
+    "forward": "+Z (glTF) = cliff face direction",
+    "origin": "base centre, lowest point at y = 0",
+    "materials": "glTF PBR metallic-roughness, one baked colour texture per rock (JPEG), roughness factor 0.86",
+    "normalMaps": "OpenGL convention (+Y up), linear; three.js default (normalScale.y = +1)",
+    "colorSpace": "*_color.jpg / foam / waterfall / splash / flowers = sRGB; *_normal.png, *_rough.jpg, caustics.png, ripple_normal_*.png = linear",
+    "tiling": "all textures except splash.png tile seamlessly in U and V; seam = [colour, height] wrap-edge/interior gradient ratio (~1 = seamless)",
+    "sky": "equirectangular Radiance HDR (RGBE), linear; image centre looks along glTF -Z; sun disc omitted (use a directional light); lower hemisphere filled with a dim ground colour"
+  },
+  "assets": [
+    {
+      "name": "rock_a",
+      "file": "rock_a.glb",
+      "tris": 712,
+      "bbox": [
+        -0.262,
+        0.0,
+        -0.234,
+        0.262,
+        0.341,
+        0.234
+      ],
+      "meshes": [
+        "rock_a"
+      ],
+      "materials": [
+        "rock_a"
+      ],
+      "animations": [],
+      "notes": "small rounded rock ~0.5 m",
+      "bytes": 53884,
+      "texture": 512,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "rock_a_lod1.glb",
+        "tris": 268,
+        "bytes": 21520,
+        "texture": 256
+      }
+    },
+    {
+      "name": "rock_b",
+      "file": "rock_b.glb",
+      "tris": 744,
+      "bbox": [
+        -0.597,
+        0.0,
+        -0.444,
+        0.597,
+        0.467,
+        0.444
+      ],
+      "meshes": [
+        "rock_b"
+      ],
+      "materials": [
+        "rock_b"
+      ],
+      "animations": [],
+      "notes": "flat slab ~1.2 x 0.9 x 0.45 m (good stepping stone)",
+      "bytes": 56184,
+      "texture": 512,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "rock_b_lod1.glb",
+        "tris": 276,
+        "bytes": 22892,
+        "texture": 256
+      }
+    },
+    {
+      "name": "rock_c",
+      "file": "rock_c.glb",
+      "tris": 736,
+      "bbox": [
+        -0.489,
+        0.0,
+        -0.407,
+        0.489,
+        1.416,
+        0.407
+      ],
+      "meshes": [
+        "rock_c"
+      ],
+      "materials": [
+        "rock_c"
+      ],
+      "animations": [],
+      "notes": "tall angular standing rock ~1.4 m",
+      "bytes": 52864,
+      "texture": 512,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "rock_c_lod1.glb",
+        "tris": 268,
+        "bytes": 21208,
+        "texture": 256
+      }
+    },
+    {
+      "name": "rock_d",
+      "file": "rock_d.glb",
+      "tris": 736,
+      "bbox": [
+        -0.917,
+        0.0,
+        -0.922,
+        0.917,
+        1.519,
+        0.922
+      ],
+      "meshes": [
+        "rock_d"
+      ],
+      "materials": [
+        "rock_d"
+      ],
+      "animations": [],
+      "notes": "rounded boulder ~1.9 m",
+      "bytes": 110956,
+      "texture": 1024,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "rock_d_lod1.glb",
+        "tris": 284,
+        "bytes": 39468,
+        "texture": 512
+      }
+    },
+    {
+      "name": "rock_e",
+      "file": "rock_e.glb",
+      "tris": 644,
+      "bbox": [
+        -1.178,
+        0.0,
+        -1.054,
+        1.178,
+        1.54,
+        1.054
+      ],
+      "meshes": [
+        "rock_e"
+      ],
+      "materials": [
+        "rock_e"
+      ],
+      "animations": [],
+      "notes": "big chunky rock ~2.5 m",
+      "bytes": 108136,
+      "texture": 1024,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "rock_e_lod1.glb",
+        "tris": 244,
+        "bytes": 41696,
+        "texture": 512
+      }
+    },
+    {
+      "name": "boulder_moss",
+      "file": "boulder_moss.glb",
+      "tris": 676,
+      "bbox": [
+        -0.9,
+        0.0,
+        -0.787,
+        0.9,
+        1.448,
+        0.787
+      ],
+      "meshes": [
+        "boulder_moss"
+      ],
+      "materials": [
+        "boulder_moss"
+      ],
+      "animations": [],
+      "notes": "rounded boulder with a heavy moss cap ~2 m",
+      "bytes": 108748,
+      "texture": 1024,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "boulder_moss_lod1.glb",
+        "tris": 276,
+        "bytes": 46164,
+        "texture": 512
+      }
+    },
+    {
+      "name": "cliff_a",
+      "file": "cliff_a.glb",
+      "tris": 2568,
+      "bbox": [
+        -2.795,
+        0.0,
+        -1.182,
+        2.795,
+        3.201,
+        1.182
+      ],
+      "meshes": [
+        "cliff_a"
+      ],
+      "materials": [
+        "cliff_a"
+      ],
+      "animations": [],
+      "notes": "straight cliff/bank piece ~5 m wide, ~3 m tall; face toward +Z (glTF); tiles along X",
+      "bytes": 304180,
+      "texture": 1024,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "cliff_a_lod1.glb",
+        "tris": 658,
+        "bytes": 86796,
+        "texture": 512
+      }
+    },
+    {
+      "name": "cliff_b",
+      "file": "cliff_b.glb",
+      "tris": 2408,
+      "bbox": [
+        -2.098,
+        0.0,
+        -2.155,
+        2.098,
+        3.07,
+        2.155
+      ],
+      "meshes": [
+        "cliff_b"
+      ],
+      "materials": [
+        "cliff_b"
+      ],
+      "animations": [],
+      "notes": "convex 90-degree corner piece (~4.5 x 4.5 m footprint, ~3 m tall)",
+      "bytes": 269892,
+      "texture": 1024,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "cliff_b_lod1.glb",
+        "tris": 612,
+        "bytes": 86608,
+        "texture": 512
+      }
+    },
+    {
+      "name": "cliff_c",
+      "file": "cliff_c.glb",
+      "tris": 2284,
+      "bbox": [
+        -3.217,
+        0.0,
+        -1.06,
+        3.217,
+        1.745,
+        1.06
+      ],
+      "meshes": [
+        "cliff_c"
+      ],
+      "materials": [
+        "cliff_c"
+      ],
+      "animations": [],
+      "notes": "low stepped riverbank piece ~6 m wide, ~1.4 m tall; face toward +Z",
+      "bytes": 265740,
+      "texture": 1024,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "cliff_c_lod1.glb",
+        "tris": 584,
+        "bytes": 79404,
+        "texture": 512
+      }
+    },
+    {
+      "name": "riverbank_stones",
+      "file": "riverbank_stones.glb",
+      "tris": 1314,
+      "bbox": [
+        -0.941,
+        0.0,
+        -0.92,
+        0.941,
+        0.315,
+        0.92
+      ],
+      "meshes": [
+        "riverbank_stones"
+      ],
+      "materials": [
+        "riverbank_stones"
+      ],
+      "animations": [],
+      "notes": "cluster of 8 rounded river stones, ~2.4 x 1.8 m",
+      "bytes": 101276,
+      "texture": 512,
+      "vertexColors": "COLOR_0 = baked ambient occlusion (0.55..1), multiply into base colour",
+      "lod1": {
+        "file": "riverbank_stones_lod1.glb",
+        "tris": 584,
+        "bytes": 48256,
+        "texture": 256
+      }
+    }
+  ],
+  "textures": [
+    {
+      "name": "grass",
+      "size": 2048,
+      "files": {
+        "color": "textures/grass_color.jpg",
+        "normal": "textures/grass_normal.png",
+        "roughness": "textures/grass_rough.jpg"
+      },
+      "normal_size": 1024,
+      "seam": [
+        1.077,
+        1.041
+      ],
+      "bytes": {
+        "color": 1024887,
+        "normal": 2387245,
+        "roughness": 825574
+      }
+    },
+    {
+      "name": "sand",
+      "size": 1024,
+      "files": {
+        "color": "textures/sand_color.jpg",
+        "normal": "textures/sand_normal.png",
+        "roughness": "textures/sand_rough.jpg"
+      },
+      "normal_size": 1024,
+      "seam": [
+        1.141,
+        1.674
+      ],
+      "bytes": {
+        "color": 56566,
+        "normal": 556651,
+        "roughness": 36689
+      }
+    },
+    {
+      "name": "mud_dry",
+      "size": 1024,
+      "files": {
+        "color": "textures/mud_dry_color.jpg",
+        "normal": "textures/mud_dry_normal.png",
+        "roughness": "textures/mud_dry_rough.jpg"
+      },
+      "normal_size": 1024,
+      "seam": [
+        1.111,
+        1.024
+      ],
+      "bytes": {
+        "color": 106796,
+        "normal": 927663,
+        "roughness": 40073
+      }
+    },
+    {
+      "name": "mud_wet",
+      "size": 1024,
+      "files": {
+        "color": "textures/mud_wet_color.jpg",
+        "normal": "textures/mud_wet_normal.png",
+        "roughness": "textures/mud_wet_rough.jpg"
+      },
+      "normal_size": 1024,
+      "seam": [
+        1.243,
+        1.225
+      ],
+      "bytes": {
+        "color": 37897,
+        "normal": 646855,
+        "roughness": 53358
+      }
+    },
+    {
+      "name": "litter",
+      "size": 1024,
+      "files": {
+        "color": "textures/litter_color.jpg",
+        "normal": "textures/litter_normal.png",
+        "roughness": "textures/litter_rough.jpg"
+      },
+      "normal_size": 1024,
+      "seam": [
+        1.12,
+        1.133
+      ],
+      "bytes": {
+        "color": 237925,
+        "normal": 1616098,
+        "roughness": 142668
+      }
+    },
+    {
+      "name": "cliff",
+      "size": 1024,
+      "files": {
+        "color": "textures/cliff_color.jpg",
+        "normal": "textures/cliff_normal.png",
+        "roughness": "textures/cliff_rough.jpg"
+      },
+      "normal_size": 1024,
+      "seam": [
+        1.065,
+        1.042
+      ],
+      "bytes": {
+        "color": 70386,
+        "normal": 945191,
+        "roughness": 43677
+      }
+    },
+    {
+      "name": "grass_flowers",
+      "size": 1024,
+      "files": {
+        "color_alpha": "textures/grass_flowers.png"
+      },
+      "notes": "optional RGBA decal overlay for grass (alphaMode MASK/BLEND), tileable",
+      "bytes": {
+        "color_alpha": 83770
+      }
+    }
+  ],
+  "water": [
+    {
+      "name": "caustics",
+      "file": "water/caustics.png",
+      "size": 1024,
+      "seam": 1.506,
+      "notes": "grayscale, additive light on the river/sea floor; scroll two copies at different speeds and take min()/multiply for animation",
+      "bytes": 572606
+    },
+    {
+      "name": "ripple_normal_a",
+      "file": "water/ripple_normal_a.png",
+      "size": 1024,
+      "seam": 0.987,
+      "notes": "tangent-space normal, OpenGL (+Y up), linear",
+      "bytes": 864922
+    },
+    {
+      "name": "ripple_normal_b",
+      "file": "water/ripple_normal_b.png",
+      "size": 1024,
+      "seam": 1.033,
+      "notes": "tangent-space normal, OpenGL (+Y up), linear",
+      "bytes": 1495436
+    },
+    {
+      "name": "foam",
+      "file": "water/foam.png",
+      "size": 1024,
+      "seam": 1.056,
+      "notes": "white RGBA foam lace with bubble holes; multiply alpha by a shoreline-distance band (or threshold alpha against the band for crisp stylized edges)",
+      "bytes": 1301873
+    },
+    {
+      "name": "waterfall",
+      "file": "water/waterfall.png",
+      "size": [
+        512,
+        1024
+      ],
+      "seam": 1.206,
+      "notes": "RGBA vertical streaks; tile/scroll in V (also tiles in U)",
+      "bytes": 857388
+    },
+    {
+      "name": "splash",
+      "file": "water/splash.png",
+      "size": 256,
+      "notes": "soft foam sprite (not tileable); additive or alpha blend",
+      "bytes": 80882
+    }
+  ],
+  "sky": [
+    {
+      "name": "sky_dawn",
+      "file": "sky/sky_dawn.hdr",
+      "size": [
+        1024,
+        512
+      ],
+      "sun_elevation_deg": 5.0,
+      "sun_azimuth_deg": 70.0,
+      "mean_upper_luminance": 0.35,
+      "max_value": 23.234,
+      "bytes": 213891
+    },
+    {
+      "name": "sky_noon",
+      "file": "sky/sky_noon.hdr",
+      "size": [
+        1024,
+        512
+      ],
+      "sun_elevation_deg": 62.0,
+      "sun_azimuth_deg": 150.0,
+      "mean_upper_luminance": 1.0,
+      "max_value": 2.969,
+      "bytes": 176358
+    },
+    {
+      "name": "sky_sunset",
+      "file": "sky/sky_sunset.hdr",
+      "size": [
+        1024,
+        512
+      ],
+      "sun_elevation_deg": 1.0,
+      "sun_azimuth_deg": -80.0,
+      "mean_upper_luminance": 0.42,
+      "max_value": 11.682,
+      "bytes": 197224
+    },
+    {
+      "name": "sky_night",
+      "file": "sky/sky_night.hdr",
+      "size": [
+        1024,
+        512
+      ],
+      "sun_elevation_deg": 32.0,
+      "sun_azimuth_deg": -30.0,
+      "mean_upper_luminance": 0.08,
+      "max_value": 2.196,
+      "bytes": 189420
+    }
+  ]
+}

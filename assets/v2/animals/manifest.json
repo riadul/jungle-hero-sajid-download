@@ -1,0 +1,409 @@
+{
+  "area": "animals",
+  "assets": [
+    {
+      "name": "tiger",
+      "file": "tiger.glb",
+      "tris": 10066,
+      "bbox": [
+        -0.2882,
+        -0.0102,
+        -1.7658,
+        0.2882,
+        1.256,
+        1.2876
+      ],
+      "meshes": [
+        "Tiger"
+      ],
+      "materials": [
+        "tiger_Fur",
+        "tiger_Eye",
+        "tiger_Horn"
+      ],
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Attack",
+        "Hit",
+        "Death",
+        "Roar",
+        "Pounce"
+      ],
+      "clips": [
+        {
+          "name": "Idle",
+          "duration": 4.0,
+          "frames": 120,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "duration": 1.4,
+          "frames": 42,
+          "loop": true
+        },
+        {
+          "name": "Run",
+          "duration": 0.6333,
+          "frames": 19,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "duration": 1.1,
+          "frames": 33,
+          "loop": false
+        },
+        {
+          "name": "Hit",
+          "duration": 0.5,
+          "frames": 15,
+          "loop": false
+        },
+        {
+          "name": "Death",
+          "duration": 1.8,
+          "frames": 54,
+          "loop": false
+        },
+        {
+          "name": "Roar",
+          "duration": 2.2,
+          "frames": 66,
+          "loop": false
+        },
+        {
+          "name": "Pounce",
+          "duration": 1.6,
+          "frames": 48,
+          "loop": false
+        }
+      ],
+      "bones": 35,
+      "texture": 2048,
+      "speeds": {
+        "Walk": 0.692,
+        "Run": 4.704
+      },
+      "sizeBytes": 1921776,
+      "notes": "Royal Bengal tiger (final boss). In-place clips; Walk/Run ground speeds are given in 'speeds' (m/s at scale 1)."
+    },
+    {
+      "name": "deer",
+      "file": "deer.glb",
+      "tris": 10138,
+      "bbox": [
+        -0.2023,
+        -0.0005,
+        -0.6893,
+        0.2025,
+        1.9849,
+        0.9679
+      ],
+      "meshes": [
+        "Deer"
+      ],
+      "materials": [
+        "deer_Fur",
+        "deer_Eye",
+        "deer_Horn"
+      ],
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Attack",
+        "Hit",
+        "Death",
+        "Graze"
+      ],
+      "clips": [
+        {
+          "name": "Idle",
+          "duration": 4.0,
+          "frames": 120,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "duration": 1.2667,
+          "frames": 38,
+          "loop": true
+        },
+        {
+          "name": "Run",
+          "duration": 0.5333,
+          "frames": 16,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "duration": 1.0,
+          "frames": 30,
+          "loop": false
+        },
+        {
+          "name": "Hit",
+          "duration": 0.5,
+          "frames": 15,
+          "loop": false
+        },
+        {
+          "name": "Death",
+          "duration": 1.8,
+          "frames": 54,
+          "loop": false
+        },
+        {
+          "name": "Graze",
+          "duration": 3.2,
+          "frames": 96,
+          "loop": true
+        }
+      ],
+      "bones": 31,
+      "texture": 1024,
+      "speeds": {
+        "Walk": 0.625,
+        "Run": 5.08
+      },
+      "sizeBytes": 1281612,
+      "notes": "Chital stag (spotted deer) with antlers. In-place clips; Graze loops with the head down."
+    },
+    {
+      "name": "fawn",
+      "file": "fawn.glb",
+      "tris": 7239,
+      "bbox": [
+        -0.1524,
+        -0.0015,
+        -0.3863,
+        0.1529,
+        0.839,
+        0.6117
+      ],
+      "meshes": [
+        "Fawn"
+      ],
+      "materials": [
+        "fawn_Fur",
+        "fawn_Eye"
+      ],
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Attack",
+        "Hit",
+        "Death",
+        "Graze"
+      ],
+      "clips": [
+        {
+          "name": "Idle",
+          "duration": 4.0,
+          "frames": 120,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "duration": 1.2667,
+          "frames": 38,
+          "loop": true
+        },
+        {
+          "name": "Run",
+          "duration": 0.5333,
+          "frames": 16,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "duration": 1.0,
+          "frames": 30,
+          "loop": false
+        },
+        {
+          "name": "Hit",
+          "duration": 0.5,
+          "frames": 15,
+          "loop": false
+        },
+        {
+          "name": "Death",
+          "duration": 1.8,
+          "frames": 54,
+          "loop": false
+        },
+        {
+          "name": "Graze",
+          "duration": 3.2,
+          "frames": 96,
+          "loop": true
+        }
+      ],
+      "bones": 31,
+      "texture": 1024,
+      "speeds": {
+        "Walk": 0.35,
+        "Run": 2.845
+      },
+      "sizeBytes": 1144140,
+      "notes": "Chital fawn: smaller, big head and ears, no antlers, bolder spots. In-place clips."
+    },
+    {
+      "name": "boar",
+      "file": "boar.glb",
+      "tris": 9454,
+      "bbox": [
+        -0.2254,
+        -0.0096,
+        -0.6859,
+        0.225,
+        0.9021,
+        1.0238
+      ],
+      "meshes": [
+        "Boar"
+      ],
+      "materials": [
+        "boar_Fur",
+        "boar_Eye",
+        "boar_Horn"
+      ],
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Attack",
+        "Hit",
+        "Death"
+      ],
+      "clips": [
+        {
+          "name": "Idle",
+          "duration": 4.0,
+          "frames": 120,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "duration": 1.0,
+          "frames": 30,
+          "loop": true
+        },
+        {
+          "name": "Run",
+          "duration": 0.4333,
+          "frames": 13,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "duration": 1.0,
+          "frames": 30,
+          "loop": false
+        },
+        {
+          "name": "Hit",
+          "duration": 0.5,
+          "frames": 15,
+          "loop": false
+        },
+        {
+          "name": "Death",
+          "duration": 1.8,
+          "frames": 54,
+          "loop": false
+        }
+      ],
+      "bones": 31,
+      "texture": 1024,
+      "speeds": {
+        "Walk": 0.581,
+        "Run": 3.885
+      },
+      "sizeBytes": 1099840,
+      "notes": "Bangladeshi black wild boar with tusks (replaces tools/build_boar.py's boar). In-place clips; scale up for the Giant Boar."
+    },
+    {
+      "name": "jackal",
+      "file": "jackal.glb",
+      "tris": 8692,
+      "bbox": [
+        -0.1198,
+        -0.0004,
+        -0.64,
+        0.1189,
+        0.7502,
+        0.6695
+      ],
+      "meshes": [
+        "Jackal"
+      ],
+      "materials": [
+        "jackal_Fur",
+        "jackal_Eye",
+        "jackal_Horn"
+      ],
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Attack",
+        "Hit",
+        "Death"
+      ],
+      "clips": [
+        {
+          "name": "Idle",
+          "duration": 4.0,
+          "frames": 120,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "duration": 0.8,
+          "frames": 24,
+          "loop": true
+        },
+        {
+          "name": "Run",
+          "duration": 0.4,
+          "frames": 12,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "duration": 0.8667,
+          "frames": 26,
+          "loop": false
+        },
+        {
+          "name": "Hit",
+          "duration": 0.5,
+          "frames": 15,
+          "loop": false
+        },
+        {
+          "name": "Death",
+          "duration": 1.8,
+          "frames": 54,
+          "loop": false
+        }
+      ],
+      "bones": 33,
+      "texture": 1024,
+      "speeds": {
+        "Walk": 0.524,
+        "Run": 3.676
+      },
+      "sizeBytes": 1075476,
+      "notes": "Golden jackal (stands in for the game's 'fox'). In-place clips."
+    }
+  ],
+  "generator": "tools/blender/animals/build.py",
+  "axes": "metres, glTF Y-up, head toward +Z, feet on y=0, origin at the ground under the hips"
+}

@@ -1,0 +1,432 @@
+{
+ "area": "creatures",
+ "assets": [
+  {
+   "tris": 8574,
+   "bbox": [
+    -0.189,
+    0.0,
+    -0.109,
+    0.189,
+    0.128,
+    0.204
+   ],
+   "meshes": [
+    "Crab"
+   ],
+   "materials": [
+    "CrabSkin",
+    "Eye"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 0.9
+    },
+    {
+     "name": "Death",
+     "duration": 1.5
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 2
+    },
+    {
+     "name": "Walk",
+     "duration": 0.8
+    }
+   ],
+   "bones": 26,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 949896,
+   "name": "crab",
+   "file": "crab.glb",
+   "notes": "Mud crab ~0.30 m wide incl. legs; walks sideways (Walk clip steps along X in place)."
+  },
+  {
+   "tris": 11784,
+   "bbox": [
+    -0.714,
+    -0.008,
+    -2.199,
+    0.714,
+    0.466,
+    1.815
+   ],
+   "meshes": [
+    "Crocodile"
+   ],
+   "materials": [
+    "CrocodileSkin",
+    "Claw",
+    "Teeth",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 2.2
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Swim",
+     "duration": 2
+    },
+    {
+     "name": "Walk",
+     "duration": 1.6
+    }
+   ],
+   "bones": 27,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 2379612,
+   "name": "crocodile",
+   "file": "crocodile.glb",
+   "notes": "Saltwater crocodile, 4.0 m nose to tail at scale 1; rest pose is the high-walk stance (belly 9 cm off the ground). Attack lunges the root 0.65 m forward."
+  },
+  {
+   "tris": 11666,
+   "bbox": [
+    -0.598,
+    -0.003,
+    -0.33,
+    0.598,
+    0.289,
+    0.254
+   ],
+   "meshes": [
+    "Kite"
+   ],
+   "materials": [
+    "KiteSkin",
+    "Talon",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.1
+    },
+    {
+     "name": "Death",
+     "duration": 1.4
+    },
+    {
+     "name": "Fly",
+     "duration": 0.6
+    },
+    {
+     "name": "Glide",
+     "duration": 3
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    }
+   ],
+   "bones": 17,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1174072,
+   "name": "kite",
+   "file": "kite.glb",
+   "notes": "Brahminy kite, 1.2 m wingspan. Feet on y=0 in every clip; Fly/Glide/Attack keep the root near the ground so the game sets the flight altitude."
+  },
+  {
+   "tris": 11928,
+   "bbox": [
+    -0.123,
+    -0.001,
+    -0.356,
+    0.123,
+    0.562,
+    0.389
+   ],
+   "meshes": [
+    "Macaque"
+   ],
+   "materials": [
+    "MacaqueSkin",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1
+    },
+    {
+     "name": "Death",
+     "duration": 1.5
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Run",
+     "duration": 0.5
+    },
+    {
+     "name": "Walk",
+     "duration": 1
+    }
+   ],
+   "bones": 23,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1181652,
+   "name": "macaque",
+   "file": "macaque.glb",
+   "notes": "Rhesus macaque. Stands ~0.5 m on all fours (rest pose); Idle sits up (~0.55 m)."
+  },
+  {
+   "tris": 9524,
+   "bbox": [
+    -0.113,
+    -0.002,
+    -2.5,
+    0.113,
+    0.188,
+    2.5
+   ],
+   "meshes": [
+    "Python"
+   ],
+   "materials": [
+    "PythonSkin",
+    "Eye",
+    "Pupil",
+    "Tongue"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 1.6
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Slither",
+     "duration": 2.4
+    },
+    {
+     "name": "Walk",
+     "duration": 2.4
+    }
+   ],
+   "bones": 26,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 899300,
+   "name": "python",
+   "file": "python.glb",
+   "notes": "Burmese python, 5 m. Rest pose lies straight along +Z (head at +Z)."
+  },
+  {
+   "tris": 8368,
+   "bbox": [
+    -0.313,
+    0.001,
+    -0.385,
+    0.312,
+    0.246,
+    0.451
+   ],
+   "meshes": [
+    "Turtle"
+   ],
+   "materials": [
+    "TurtleSkin",
+    "Claw",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 3
+    },
+    {
+     "name": "Swim",
+     "duration": 1.6
+    },
+    {
+     "name": "Walk",
+     "duration": 1.6
+    }
+   ],
+   "bones": 18,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1476976,
+   "name": "turtle",
+   "file": "turtle.glb",
+   "notes": "River terrapin, carapace 0.6 m long, 0.3 m tall standing."
+  },
+  {
+   "tris": 5588,
+   "bbox": [
+    -0.028,
+    -0.001,
+    -0.75,
+    0.028,
+    0.046,
+    0.75
+   ],
+   "meshes": [
+    "WaterSnake"
+   ],
+   "materials": [
+    "WaterSnakeSkin",
+    "Eye",
+    "Pupil",
+    "Tongue"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 1.6
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Slither",
+     "duration": 1.1
+    },
+    {
+     "name": "Walk",
+     "duration": 1.1
+    }
+   ],
+   "bones": 22,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 461112,
+   "name": "watersnake",
+   "file": "watersnake.glb",
+   "notes": "Checkered keelback water snake, 1.5 m."
+  }
+ ]
+}

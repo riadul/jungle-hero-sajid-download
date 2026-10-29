@@ -1,0 +1,1721 @@
+{
+ "animals": {
+  "tiger": {
+   "file": "animals/tiger.glb",
+   "bbox": [
+    -0.2882,
+    -0.0102,
+    -1.7658,
+    0.2882,
+    1.256,
+    1.2876
+   ],
+   "meshes": [
+    "Tiger"
+   ],
+   "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death",
+    "Roar",
+    "Pounce"
+   ]
+  },
+  "deer": {
+   "file": "animals/deer.glb",
+   "bbox": [
+    -0.2023,
+    -0.0005,
+    -0.6893,
+    0.2025,
+    1.9849,
+    0.9679
+   ],
+   "meshes": [
+    "Deer"
+   ],
+   "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death",
+    "Graze"
+   ]
+  },
+  "fawn": {
+   "file": "animals/fawn.glb",
+   "bbox": [
+    -0.1524,
+    -0.0015,
+    -0.3863,
+    0.1529,
+    0.839,
+    0.6117
+   ],
+   "meshes": [
+    "Fawn"
+   ],
+   "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death",
+    "Graze"
+   ]
+  },
+  "boar": {
+   "file": "animals/boar.glb",
+   "bbox": [
+    -0.2254,
+    -0.0096,
+    -0.6859,
+    0.225,
+    0.9021,
+    1.0238
+   ],
+   "meshes": [
+    "Boar"
+   ],
+   "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death"
+   ]
+  },
+  "jackal": {
+   "file": "animals/jackal.glb",
+   "bbox": [
+    -0.1198,
+    -0.0004,
+    -0.64,
+    0.1189,
+    0.7502,
+    0.6695
+   ],
+   "meshes": [
+    "Jackal"
+   ],
+   "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Hit",
+    "Death"
+   ]
+  }
+ },
+ "characters": {
+  "sajid": {
+   "file": "characters/sajid.glb",
+   "bbox": [
+    -0.5613,
+    -0.002,
+    -0.2477,
+    0.5613,
+    1.1306,
+    0.1493
+   ],
+   "meshes": [
+    "Sajid"
+   ],
+   "animations": []
+  },
+  "baba": {
+   "file": "characters/baba.glb",
+   "bbox": [
+    -0.9285,
+    -0.001,
+    -0.1522,
+    0.9285,
+    1.8882,
+    0.179
+   ],
+   "meshes": [
+    "Baba"
+   ],
+   "animations": []
+  },
+  "bandit": {
+   "file": "characters/bandit.glb",
+   "bbox": [
+    -1.5433,
+    -0.005,
+    -0.295,
+    1.5433,
+    2.7051,
+    0.315
+   ],
+   "meshes": [
+    "Body"
+   ],
+   "animations": [
+    "Death",
+    "Defeat",
+    "Idle",
+    "Jump",
+    "PickUp",
+    "Punch",
+    "RecieveHit",
+    "Roll",
+    "Run",
+    "Run_Carry",
+    "Shoot_OneHanded",
+    "SitDown",
+    "StandUp",
+    "SwordSlash",
+    "Victory",
+    "Walk",
+    "Walk_Carry"
+   ]
+  },
+  "bandit_2": {
+   "file": "characters/bandit_2.glb",
+   "bbox": [
+    -1.5433,
+    -0.005,
+    -0.295,
+    1.5433,
+    2.6968,
+    0.315
+   ],
+   "meshes": [
+    "Body"
+   ],
+   "animations": [
+    "Death",
+    "Defeat",
+    "Idle",
+    "Jump",
+    "PickUp",
+    "Punch",
+    "RecieveHit",
+    "Roll",
+    "Run",
+    "Run_Carry",
+    "Shoot_OneHanded",
+    "SitDown",
+    "StandUp",
+    "SwordSlash",
+    "Victory",
+    "Walk",
+    "Walk_Carry"
+   ]
+  },
+  "bandit_3": {
+   "file": "characters/bandit_3.glb",
+   "bbox": [
+    -1.5433,
+    -0.005,
+    -0.295,
+    1.5433,
+    2.715,
+    0.315
+   ],
+   "meshes": [
+    "Body"
+   ],
+   "animations": [
+    "Death",
+    "Defeat",
+    "Idle",
+    "Jump",
+    "PickUp",
+    "Punch",
+    "RecieveHit",
+    "Roll",
+    "Run",
+    "Run_Carry",
+    "Shoot_OneHanded",
+    "SitDown",
+    "StandUp",
+    "SwordSlash",
+    "Victory",
+    "Walk",
+    "Walk_Carry"
+   ]
+  },
+  "sardar": {
+   "file": "characters/sardar.glb",
+   "bbox": [
+    -1.5433,
+    -0.005,
+    -0.3185,
+    1.5433,
+    2.7051,
+    0.315
+   ],
+   "meshes": [
+    "Body"
+   ],
+   "animations": [
+    "Death",
+    "Defeat",
+    "Idle",
+    "Jump",
+    "PickUp",
+    "Punch",
+    "RecieveHit",
+    "Roll",
+    "Run",
+    "Run_Carry",
+    "Shoot_OneHanded",
+    "SitDown",
+    "StandUp",
+    "SwordSlash",
+    "Victory",
+    "Walk",
+    "Walk_Carry"
+   ]
+  }
+ },
+ "creatures": {
+  "crab": {
+   "file": "creatures/crab.glb",
+   "bbox": [
+    -0.189,
+    0,
+    -0.109,
+    0.189,
+    0.128,
+    0.204
+   ],
+   "meshes": [
+    "Crab"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 0.9
+    },
+    {
+     "name": "Death",
+     "duration": 1.5
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 2
+    },
+    {
+     "name": "Walk",
+     "duration": 0.8
+    }
+   ]
+  },
+  "crocodile": {
+   "file": "creatures/crocodile.glb",
+   "bbox": [
+    -0.714,
+    -0.008,
+    -2.199,
+    0.714,
+    0.466,
+    1.815
+   ],
+   "meshes": [
+    "Crocodile"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 2.2
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Swim",
+     "duration": 2
+    },
+    {
+     "name": "Walk",
+     "duration": 1.6
+    }
+   ]
+  },
+  "kite": {
+   "file": "creatures/kite.glb",
+   "bbox": [
+    -0.598,
+    -0.003,
+    -0.33,
+    0.598,
+    0.289,
+    0.254
+   ],
+   "meshes": [
+    "Kite"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.1
+    },
+    {
+     "name": "Death",
+     "duration": 1.4
+    },
+    {
+     "name": "Fly",
+     "duration": 0.6
+    },
+    {
+     "name": "Glide",
+     "duration": 3
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    }
+   ]
+  },
+  "macaque": {
+   "file": "creatures/macaque.glb",
+   "bbox": [
+    -0.123,
+    -0.001,
+    -0.356,
+    0.123,
+    0.562,
+    0.389
+   ],
+   "meshes": [
+    "Macaque"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1
+    },
+    {
+     "name": "Death",
+     "duration": 1.5
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Run",
+     "duration": 0.5
+    },
+    {
+     "name": "Walk",
+     "duration": 1
+    }
+   ]
+  },
+  "python": {
+   "file": "creatures/python.glb",
+   "bbox": [
+    -0.113,
+    -0.002,
+    -2.5,
+    0.113,
+    0.188,
+    2.5
+   ],
+   "meshes": [
+    "Python"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 1.6
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Slither",
+     "duration": 2.4
+    },
+    {
+     "name": "Walk",
+     "duration": 2.4
+    }
+   ]
+  },
+  "turtle": {
+   "file": "creatures/turtle.glb",
+   "bbox": [
+    -0.313,
+    0.001,
+    -0.385,
+    0.312,
+    0.246,
+    0.451
+   ],
+   "meshes": [
+    "Turtle"
+   ],
+   "animations": [
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 3
+    },
+    {
+     "name": "Swim",
+     "duration": 1.6
+    },
+    {
+     "name": "Walk",
+     "duration": 1.6
+    }
+   ]
+  },
+  "watersnake": {
+   "file": "creatures/watersnake.glb",
+   "bbox": [
+    -0.028,
+    -0.001,
+    -0.75,
+    0.028,
+    0.046,
+    0.75
+   ],
+   "meshes": [
+    "WaterSnake"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 1.6
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Slither",
+     "duration": 1.1
+    },
+    {
+     "name": "Walk",
+     "duration": 1.1
+    }
+   ]
+  }
+ },
+ "ground": {
+  "rock_a": {
+   "file": "ground/rock_a.glb",
+   "bbox": [
+    -0.262,
+    0,
+    -0.234,
+    0.262,
+    0.341,
+    0.234
+   ],
+   "meshes": [
+    "rock_a"
+   ],
+   "animations": []
+  },
+  "rock_b": {
+   "file": "ground/rock_b.glb",
+   "bbox": [
+    -0.597,
+    0,
+    -0.444,
+    0.597,
+    0.467,
+    0.444
+   ],
+   "meshes": [
+    "rock_b"
+   ],
+   "animations": []
+  },
+  "rock_c": {
+   "file": "ground/rock_c.glb",
+   "bbox": [
+    -0.489,
+    0,
+    -0.407,
+    0.489,
+    1.416,
+    0.407
+   ],
+   "meshes": [
+    "rock_c"
+   ],
+   "animations": []
+  },
+  "rock_d": {
+   "file": "ground/rock_d.glb",
+   "bbox": [
+    -0.917,
+    0,
+    -0.922,
+    0.917,
+    1.519,
+    0.922
+   ],
+   "meshes": [
+    "rock_d"
+   ],
+   "animations": []
+  },
+  "rock_e": {
+   "file": "ground/rock_e.glb",
+   "bbox": [
+    -1.178,
+    0,
+    -1.054,
+    1.178,
+    1.54,
+    1.054
+   ],
+   "meshes": [
+    "rock_e"
+   ],
+   "animations": []
+  },
+  "boulder_moss": {
+   "file": "ground/boulder_moss.glb",
+   "bbox": [
+    -0.9,
+    0,
+    -0.787,
+    0.9,
+    1.448,
+    0.787
+   ],
+   "meshes": [
+    "boulder_moss"
+   ],
+   "animations": []
+  },
+  "cliff_a": {
+   "file": "ground/cliff_a.glb",
+   "bbox": [
+    -2.795,
+    0,
+    -1.182,
+    2.795,
+    3.201,
+    1.182
+   ],
+   "meshes": [
+    "cliff_a"
+   ],
+   "animations": []
+  },
+  "cliff_b": {
+   "file": "ground/cliff_b.glb",
+   "bbox": [
+    -2.098,
+    0,
+    -2.155,
+    2.098,
+    3.07,
+    2.155
+   ],
+   "meshes": [
+    "cliff_b"
+   ],
+   "animations": []
+  },
+  "cliff_c": {
+   "file": "ground/cliff_c.glb",
+   "bbox": [
+    -3.217,
+    0,
+    -1.06,
+    3.217,
+    1.745,
+    1.06
+   ],
+   "meshes": [
+    "cliff_c"
+   ],
+   "animations": []
+  },
+  "riverbank_stones": {
+   "file": "ground/riverbank_stones.glb",
+   "bbox": [
+    -0.941,
+    0,
+    -0.92,
+    0.941,
+    0.315,
+    0.92
+   ],
+   "meshes": [
+    "riverbank_stones"
+   ],
+   "animations": []
+  }
+ },
+ "props": {
+  "nouka": {
+   "file": "props/nouka.glb",
+   "bbox": [
+    -0.646,
+    0,
+    -2.382,
+    0.646,
+    1.241,
+    2.382
+   ],
+   "meshes": [
+    "benches",
+    "chhoi",
+    "hull"
+   ],
+   "animations": []
+  },
+  "boitha": {
+   "file": "props/boitha.glb",
+   "bbox": [
+    -0.086,
+    0.003,
+    -0.032,
+    0.086,
+    1.5,
+    0.032
+   ],
+   "meshes": [
+    "paddle"
+   ],
+   "animations": []
+  },
+  "launch": {
+   "file": "props/launch.glb",
+   "bbox": [
+    -3.34,
+    -1.1,
+    -16,
+    3.34,
+    9.34,
+    15.024
+   ],
+   "meshes": [
+    "details",
+    "flag",
+    "hull",
+    "superstructure",
+    "windows"
+   ],
+   "animations": []
+  },
+  "jetty_plank_segment": {
+   "file": "props/jetty_plank_segment.glb",
+   "bbox": [
+    -1.256,
+    -2,
+    -1,
+    1.26,
+    0.2,
+    1
+   ],
+   "meshes": [
+    "jetty"
+   ],
+   "animations": []
+  },
+  "jetty_end": {
+   "file": "props/jetty_end.glb",
+   "bbox": [
+    -1.258,
+    -2,
+    -1,
+    1.255,
+    0.66,
+    1.221
+   ],
+   "meshes": [
+    "jetty"
+   ],
+   "animations": []
+  },
+  "rope_rail": {
+   "file": "props/rope_rail.glb",
+   "bbox": [
+    -0.087,
+    -0.35,
+    -1.087,
+    0.086,
+    1.04,
+    1.004
+   ],
+   "meshes": [
+    "rail"
+   ],
+   "animations": []
+  },
+  "rope_bridge_piece": {
+   "file": "props/rope_bridge_piece.glb",
+   "bbox": [
+    -0.724,
+    -0.079,
+    -1.01,
+    0.724,
+    0.971,
+    1.05
+   ],
+   "meshes": [
+    "rope_bridge"
+   ],
+   "animations": []
+  },
+  "plank_house": {
+   "file": "props/plank_house.glb",
+   "bbox": [
+    -2.525,
+    -0.1,
+    -2.116,
+    2.525,
+    4.2,
+    3.53
+   ],
+   "meshes": [
+    "roof",
+    "walls"
+   ],
+   "animations": []
+  },
+  "thatch_hut": {
+   "file": "props/thatch_hut.glb",
+   "bbox": [
+    -2.716,
+    0,
+    -2.449,
+    2.716,
+    4.51,
+    3.149
+   ],
+   "meshes": [
+    "roof",
+    "walls"
+   ],
+   "animations": []
+  },
+  "shack": {
+   "file": "props/shack.glb",
+   "bbox": [
+    -1.98,
+    -0.15,
+    -1.536,
+    1.75,
+    3.102,
+    3.028
+   ],
+   "meshes": [
+    "roof",
+    "walls"
+   ],
+   "animations": []
+  },
+  "watchtower": {
+   "file": "props/watchtower.glb",
+   "bbox": [
+    -2.317,
+    -0.215,
+    -2.317,
+    2.317,
+    10.614,
+    2.317
+   ],
+   "meshes": [
+    "roof",
+    "tower"
+   ],
+   "animations": []
+  },
+  "lighthouse": {
+   "file": "props/lighthouse.glb",
+   "bbox": [
+    -3.141,
+    0,
+    -3.141,
+    3.141,
+    22.6,
+    5.269
+   ],
+   "meshes": [
+    "glass",
+    "tower"
+   ],
+   "animations": []
+  },
+  "shrine": {
+   "file": "props/shrine.glb",
+   "bbox": [
+    -0.962,
+    0,
+    -0.899,
+    1.3,
+    2.5,
+    0.799
+   ],
+   "meshes": [
+    "body",
+    "flame"
+   ],
+   "animations": []
+  },
+  "crate_a": {
+   "file": "props/crate_a.glb",
+   "bbox": [
+    -0.467,
+    0,
+    -0.467,
+    0.467,
+    0.95,
+    0.467
+   ],
+   "meshes": [
+    "crate"
+   ],
+   "animations": []
+  },
+  "crate_b": {
+   "file": "props/crate_b.glb",
+   "bbox": [
+    -0.314,
+    0,
+    -0.234,
+    0.314,
+    0.42,
+    0.234
+   ],
+   "meshes": [
+    "crate"
+   ],
+   "animations": []
+  },
+  "barrel": {
+   "file": "props/barrel.glb",
+   "bbox": [
+    -0.317,
+    0,
+    -0.317,
+    0.317,
+    0.92,
+    0.317
+   ],
+   "meshes": [
+    "body"
+   ],
+   "animations": []
+  },
+  "lantern": {
+   "file": "props/lantern.glb",
+   "bbox": [
+    -0.109,
+    0,
+    -0.088,
+    0.109,
+    0.583,
+    0.088
+   ],
+   "meshes": [
+    "body",
+    "glass"
+   ],
+   "animations": []
+  },
+  "torch": {
+   "file": "props/torch.glb",
+   "bbox": [
+    -0.066,
+    -0.05,
+    -0.067,
+    0.08,
+    1.94,
+    0.065
+   ],
+   "meshes": [
+    "flame",
+    "stick"
+   ],
+   "animations": []
+  },
+  "campfire": {
+   "file": "props/campfire.glb",
+   "bbox": [
+    -0.808,
+    -0.062,
+    -0.644,
+    0.595,
+    0.8,
+    0.591
+   ],
+   "meshes": [
+    "embers",
+    "flame",
+    "logs_stones"
+   ],
+   "animations": []
+  },
+  "signpost": {
+   "file": "props/signpost.glb",
+   "bbox": [
+    -0.793,
+    -0.054,
+    -0.356,
+    0.941,
+    2.22,
+    0.748
+   ],
+   "meshes": [
+    "post"
+   ],
+   "animations": []
+  },
+  "broken_planks": {
+   "file": "props/broken_planks.glb",
+   "bbox": [
+    -1.444,
+    -0.042,
+    -1.49,
+    1.528,
+    0.06,
+    1.257
+   ],
+   "meshes": [
+    "planks"
+   ],
+   "animations": []
+  }
+ },
+ "veg": {
+  "mangrove_a": {
+   "file": "veg/mangrove_a.glb",
+   "bbox": [
+    -4.429,
+    -0.08,
+    -3.985,
+    4.163,
+    7.5,
+    3.503
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "mangrove_a_lod1": {
+   "file": "veg/mangrove_a_lod1.glb",
+   "bbox": [
+    -4.991,
+    -0.08,
+    -4.093,
+    4.436,
+    7.902,
+    3.978
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "mangrove_b": {
+   "file": "veg/mangrove_b.glb",
+   "bbox": [
+    -4.523,
+    -0.08,
+    -4.982,
+    4.272,
+    9.026,
+    4.956
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "mangrove_b_lod1": {
+   "file": "veg/mangrove_b_lod1.glb",
+   "bbox": [
+    -5.838,
+    -0.08,
+    -5.324,
+    4.999,
+    9.354,
+    5.05
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "mangrove_c": {
+   "file": "veg/mangrove_c.glb",
+   "bbox": [
+    -5.05,
+    -0.08,
+    -4.205,
+    4.973,
+    10.287,
+    5.813
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "mangrove_c_lod1": {
+   "file": "veg/mangrove_c_lod1.glb",
+   "bbox": [
+    -5.913,
+    -0.08,
+    -5.08,
+    5.404,
+    10.786,
+    6.95
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "mangrove_d": {
+   "file": "veg/mangrove_d.glb",
+   "bbox": [
+    -7.102,
+    -0.08,
+    -7.407,
+    5.571,
+    11.49,
+    5.29
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "mangrove_d_lod1": {
+   "file": "veg/mangrove_d_lod1.glb",
+   "bbox": [
+    -6.978,
+    -0.08,
+    -6.958,
+    5.976,
+    12.187,
+    5.85
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "sundari_a": {
+   "file": "veg/sundari_a.glb",
+   "bbox": [
+    -3.605,
+    -0.08,
+    -3.23,
+    4.108,
+    11.861,
+    3.347
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "sundari_a_lod1": {
+   "file": "veg/sundari_a_lod1.glb",
+   "bbox": [
+    -3.727,
+    -0.08,
+    -3.283,
+    4.168,
+    12.207,
+    3.725
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "sundari_b": {
+   "file": "veg/sundari_b.glb",
+   "bbox": [
+    -3.881,
+    -0.08,
+    -4.304,
+    4.099,
+    14.203,
+    4.189
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "sundari_b_lod1": {
+   "file": "veg/sundari_b_lod1.glb",
+   "bbox": [
+    -4.33,
+    -0.08,
+    -4.087,
+    4.118,
+    14.285,
+    3.989
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "sundari_c": {
+   "file": "veg/sundari_c.glb",
+   "bbox": [
+    -5.101,
+    -0.08,
+    -5.324,
+    4.722,
+    16.552,
+    5.001
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "sundari_c_lod1": {
+   "file": "veg/sundari_c_lod1.glb",
+   "bbox": [
+    -5.007,
+    -0.08,
+    -5.281,
+    5.536,
+    17.733,
+    4.794
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "keora_a": {
+   "file": "veg/keora_a.glb",
+   "bbox": [
+    -4.338,
+    -0.08,
+    -3.598,
+    3.47,
+    7.786,
+    3.698
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "keora_a_lod1": {
+   "file": "veg/keora_a_lod1.glb",
+   "bbox": [
+    -4.166,
+    -0.08,
+    -3.811,
+    3.34,
+    8.118,
+    4.712
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "keora_b": {
+   "file": "veg/keora_b.glb",
+   "bbox": [
+    -5.031,
+    -0.08,
+    -5.282,
+    5.026,
+    10.22,
+    4.63
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "keora_b_lod1": {
+   "file": "veg/keora_b_lod1.glb",
+   "bbox": [
+    -5.765,
+    -0.08,
+    -6.209,
+    4.454,
+    10.622,
+    4.529
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "golpata_a": {
+   "file": "veg/golpata_a.glb",
+   "bbox": [
+    -5.223,
+    -0.08,
+    -5.905,
+    6.15,
+    4.266,
+    5.111
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "golpata_a_lod1": {
+   "file": "veg/golpata_a_lod1.glb",
+   "bbox": [
+    -5.339,
+    -0.08,
+    -5.707,
+    6.162,
+    4.543,
+    6.234
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "golpata_b": {
+   "file": "veg/golpata_b.glb",
+   "bbox": [
+    -6.623,
+    -0.08,
+    -8.119,
+    7.016,
+    5.481,
+    7.05
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "golpata_b_lod1": {
+   "file": "veg/golpata_b_lod1.glb",
+   "bbox": [
+    -8.193,
+    -0.08,
+    -7.475,
+    6.726,
+    5.746,
+    7.213
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "coconut_a": {
+   "file": "veg/coconut_a.glb",
+   "bbox": [
+    -2.05,
+    -0.08,
+    -4.265,
+    4.623,
+    8.625,
+    2.687
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "coconut_a_lod1": {
+   "file": "veg/coconut_a_lod1.glb",
+   "bbox": [
+    -2.237,
+    -0.08,
+    -4.27,
+    4.598,
+    8.471,
+    2.53
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "coconut_b": {
+   "file": "veg/coconut_b.glb",
+   "bbox": [
+    -5.491,
+    -0.08,
+    -4.376,
+    1.657,
+    9.984,
+    2.025
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "coconut_b_lod1": {
+   "file": "veg/coconut_b_lod1.glb",
+   "bbox": [
+    -5.418,
+    -0.08,
+    -4.103,
+    1.686,
+    10.084,
+    1.68
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "broadleaf_a": {
+   "file": "veg/broadleaf_a.glb",
+   "bbox": [
+    -4.216,
+    -0.08,
+    -4.332,
+    4.197,
+    7.86,
+    3.807
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "broadleaf_a_lod1": {
+   "file": "veg/broadleaf_a_lod1.glb",
+   "bbox": [
+    -4.805,
+    -0.08,
+    -4.767,
+    4.855,
+    8.671,
+    4.506
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "broadleaf_b": {
+   "file": "veg/broadleaf_b.glb",
+   "bbox": [
+    -5.548,
+    -0.08,
+    -4.815,
+    5.938,
+    9.331,
+    5.099
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "broadleaf_b_lod1": {
+   "file": "veg/broadleaf_b_lod1.glb",
+   "bbox": [
+    -6.162,
+    -0.08,
+    -5.293,
+    6.729,
+    10.036,
+    5.789
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "bush_a": {
+   "file": "veg/bush_a.glb",
+   "bbox": [
+    -1.487,
+    -0.08,
+    -1.351,
+    1.352,
+    1.595,
+    1.382
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "bush_b": {
+   "file": "veg/bush_b.glb",
+   "bbox": [
+    -0.957,
+    -0.08,
+    -1.028,
+    0.902,
+    1.11,
+    0.908
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "bush_c": {
+   "file": "veg/bush_c.glb",
+   "bbox": [
+    -1.128,
+    -0.08,
+    -1.212,
+    1.24,
+    1.453,
+    1.204
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "grass_a": {
+   "file": "veg/grass_a.glb",
+   "bbox": [
+    -0.2,
+    -0.004,
+    -0.241,
+    0.23,
+    0.431,
+    0.202
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "animations": []
+  },
+  "grass_b": {
+   "file": "veg/grass_b.glb",
+   "bbox": [
+    -0.342,
+    -0.009,
+    -0.376,
+    0.384,
+    0.686,
+    0.36
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "animations": []
+  },
+  "grass_c": {
+   "file": "veg/grass_c.glb",
+   "bbox": [
+    -0.5,
+    -0.011,
+    -0.405,
+    0.472,
+    0.936,
+    0.439
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "animations": []
+  },
+  "flowers_a": {
+   "file": "veg/flowers_a.glb",
+   "bbox": [
+    -0.487,
+    0,
+    -0.605,
+    0.533,
+    0.339,
+    0.451
+   ],
+   "meshes": [
+    "flowers",
+    "leaves"
+   ],
+   "animations": []
+  },
+  "flowers_b": {
+   "file": "veg/flowers_b.glb",
+   "bbox": [
+    -0.496,
+    0,
+    -0.598,
+    0.566,
+    0.33,
+    0.612
+   ],
+   "meshes": [
+    "flowers",
+    "leaves"
+   ],
+   "animations": []
+  },
+  "fern_a": {
+   "file": "veg/fern_a.glb",
+   "bbox": [
+    -0.743,
+    -0.034,
+    -0.819,
+    0.741,
+    0.386,
+    0.751
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "animations": []
+  },
+  "fern_b": {
+   "file": "veg/fern_b.glb",
+   "bbox": [
+    -1.225,
+    -0.057,
+    -1.1,
+    1.052,
+    0.528,
+    1.234
+   ],
+   "meshes": [
+    "leaves"
+   ],
+   "animations": []
+  },
+  "pneumatophores": {
+   "file": "veg/pneumatophores.glb",
+   "bbox": [
+    -1.485,
+    -0.072,
+    -1.475,
+    1.48,
+    0.366,
+    1.496
+   ],
+   "meshes": [
+    "wood"
+   ],
+   "animations": []
+  },
+  "log_fallen": {
+   "file": "veg/log_fallen.glb",
+   "bbox": [
+    -2.116,
+    -0.027,
+    -0.657,
+    2.352,
+    0.737,
+    0.277
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  },
+  "stump": {
+   "file": "veg/stump.glb",
+   "bbox": [
+    -0.593,
+    -0.05,
+    -0.448,
+    0.655,
+    0.65,
+    0.716
+   ],
+   "meshes": [
+    "leaves",
+    "wood"
+   ],
+   "animations": []
+  }
+ }
+}

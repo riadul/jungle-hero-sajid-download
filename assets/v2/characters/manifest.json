@@ -1,0 +1,298 @@
+{
+  "area": "characters",
+  "version": "0.2.0",
+  "generator": "tools/blender/characters/build.py",
+  "assets": [
+    {
+      "name": "sajid",
+      "file": "sajid.glb",
+      "tris": 14624,
+      "bbox": [
+        -0.5613,
+        -0.002,
+        -0.2477,
+        0.5613,
+        1.1306,
+        0.1493
+      ],
+      "meshes": [
+        "Sajid"
+      ],
+      "materials": [
+        "Skin",
+        "EyeWhite",
+        "Brow",
+        "Mouth",
+        "Hair",
+        "Shirt",
+        "Shorts",
+        "Sock",
+        "Shoe",
+        "Sole",
+        "Backpack"
+      ],
+      "animations": [],
+      "rig": "UAL (65 joints, child proportions)",
+      "rig_reference": "public/assets/models/characters/sajid.glb",
+      "joints": 65,
+      "game_height_m": 1.12,
+      "bytes": 1416640,
+      "texture": "one baked albedo atlas (JPEG q90) shared by all materials; COLOR_0 = baked AO",
+      "notes": "Sajid, 5 y/o. Drop-in for models/characters/sajid.glb: same skeleton (names, parents, rest TRS identical), UAL clips play via hero.ts adaptClip (hip scale 0.497). Head bone 'Head' still carries head+hair+face, so setFirstPerson() works unchanged."
+    },
+    {
+      "name": "baba",
+      "file": "baba.glb",
+      "tris": 14565,
+      "bbox": [
+        -0.9285,
+        -0.001,
+        -0.1522,
+        0.9285,
+        1.8882,
+        0.179
+      ],
+      "meshes": [
+        "Baba"
+      ],
+      "materials": [
+        "Skin",
+        "EyeWhite",
+        "Brow",
+        "Frame",
+        "Mouth",
+        "Beard",
+        "Hair",
+        "Shirt",
+        "Watch",
+        "Jeans",
+        "Shoe",
+        "Sole",
+        "Belt"
+      ],
+      "animations": [],
+      "rig": "UAL (65 joints, adult)",
+      "rig_reference": "public/assets/models/characters/baba.glb",
+      "joints": 65,
+      "game_height_m": 1.74,
+      "bytes": 1256264,
+      "texture": "one baked albedo atlas (JPEG q90) shared by all materials; COLOR_0 = baked AO",
+      "notes": "Baba. Drop-in for models/characters/baba.glb (identical skeleton). Slightly bigger friendly head, glasses, small neat chin beard under the chin / along the lower jaw only (no moustache), side-parted hair, fitted blue crew-neck T-shirt, dark straight-leg jeans with belt and knee folds, watch, brown shoes."
+    },
+    {
+      "name": "bandit",
+      "file": "bandit.glb",
+      "tris": 12182,
+      "bbox": [
+        -1.5433,
+        -0.005,
+        -0.295,
+        1.5433,
+        2.7051,
+        0.315
+      ],
+      "meshes": [
+        "Body"
+      ],
+      "materials": [
+        "Skin",
+        "Face",
+        "Hair",
+        "Mouth",
+        "Mask",
+        "Top",
+        "Jacket",
+        "Scarf",
+        "Boots",
+        "Pants"
+      ],
+      "animations": [
+        "Death",
+        "Defeat",
+        "Idle",
+        "Jump",
+        "PickUp",
+        "Punch",
+        "RecieveHit",
+        "Roll",
+        "Run",
+        "Run_Carry",
+        "Shoot_OneHanded",
+        "SitDown",
+        "StandUp",
+        "SwordSlash",
+        "Victory",
+        "Walk",
+        "Walk_Carry"
+      ],
+      "rig": "Quaternius UACP (23 joints) + its 17 clips",
+      "rig_reference": "public/assets/models/characters/bandit.glb",
+      "joints": 23,
+      "game_height_m": 1.78,
+      "bytes": 1481100,
+      "texture": "one baked albedo atlas (JPEG q90) shared by all materials; COLOR_0 = baked AO",
+      "notes": "Forest dakait A (moustache, cropped hair). Black clothes, black eye mask modelled in (material 'Mask'); eyes are material 'Face'. Same skeleton and clips as models/characters/bandit.glb."
+    },
+    {
+      "name": "bandit_2",
+      "file": "bandit_2.glb",
+      "tris": 12130,
+      "bbox": [
+        -1.5433,
+        -0.005,
+        -0.295,
+        1.5433,
+        2.6968,
+        0.315
+      ],
+      "meshes": [
+        "Body"
+      ],
+      "materials": [
+        "Skin",
+        "Face",
+        "Hair",
+        "Mouth",
+        "Scarf",
+        "Mask",
+        "Top",
+        "Jacket",
+        "Boots",
+        "Pants"
+      ],
+      "animations": [
+        "Death",
+        "Defeat",
+        "Idle",
+        "Jump",
+        "PickUp",
+        "Punch",
+        "RecieveHit",
+        "Roll",
+        "Run",
+        "Run_Carry",
+        "Shoot_OneHanded",
+        "SitDown",
+        "StandUp",
+        "SwordSlash",
+        "Victory",
+        "Walk",
+        "Walk_Carry"
+      ],
+      "rig": "Quaternius UACP (23 joints) + its 17 clips",
+      "rig_reference": "public/assets/models/characters/bandit.glb",
+      "joints": 23,
+      "game_height_m": 1.78,
+      "bytes": 1465780,
+      "texture": "one baked albedo atlas (JPEG q90) shared by all materials; COLOR_0 = baked AO",
+      "notes": "Dakait B: darker skin, heavier build, full beard, black head-wrap, rust scarf. Same rig/clips as bandit.glb (optional variant)."
+    },
+    {
+      "name": "bandit_3",
+      "file": "bandit_3.glb",
+      "tris": 12442,
+      "bbox": [
+        -1.5433,
+        -0.005,
+        -0.295,
+        1.5433,
+        2.715,
+        0.315
+      ],
+      "meshes": [
+        "Body"
+      ],
+      "materials": [
+        "Skin",
+        "Face",
+        "Hair",
+        "Mouth",
+        "Mask",
+        "Top",
+        "Jacket",
+        "Scarf",
+        "Boots",
+        "Pants"
+      ],
+      "animations": [
+        "Death",
+        "Defeat",
+        "Idle",
+        "Jump",
+        "PickUp",
+        "Punch",
+        "RecieveHit",
+        "Roll",
+        "Run",
+        "Run_Carry",
+        "Shoot_OneHanded",
+        "SitDown",
+        "StandUp",
+        "SwordSlash",
+        "Victory",
+        "Walk",
+        "Walk_Carry"
+      ],
+      "rig": "Quaternius UACP (23 joints) + its 17 clips",
+      "rig_reference": "public/assets/models/characters/bandit.glb",
+      "joints": 23,
+      "game_height_m": 1.78,
+      "bytes": 1502052,
+      "texture": "one baked albedo atlas (JPEG q90) shared by all materials; COLOR_0 = baked AO",
+      "notes": "Dakait C: lighter skin, slim, spiky hair, moustache, green scarf. Same rig/clips as bandit.glb (optional variant)."
+    },
+    {
+      "name": "sardar",
+      "file": "sardar.glb",
+      "tris": 12258,
+      "bbox": [
+        -1.5433,
+        -0.005,
+        -0.3185,
+        1.5433,
+        2.7051,
+        0.315
+      ],
+      "meshes": [
+        "Body"
+      ],
+      "materials": [
+        "Skin",
+        "Face",
+        "Hair",
+        "Mouth",
+        "Hat",
+        "Shirt",
+        "Vest",
+        "Boots",
+        "Pants"
+      ],
+      "animations": [
+        "Death",
+        "Defeat",
+        "Idle",
+        "Jump",
+        "PickUp",
+        "Punch",
+        "RecieveHit",
+        "Roll",
+        "Run",
+        "Run_Carry",
+        "Shoot_OneHanded",
+        "SitDown",
+        "StandUp",
+        "SwordSlash",
+        "Victory",
+        "Walk",
+        "Walk_Carry"
+      ],
+      "rig": "Quaternius UACP (23 joints) + its 17 clips",
+      "rig_reference": "public/assets/models/characters/sardar.glb",
+      "joints": 23,
+      "game_height_m": 2.15,
+      "bytes": 1492584,
+      "texture": "one baked albedo atlas (JPEG q90) shared by all materials; COLOR_0 = baked AO",
+      "notes": "Bandit leader: red headband (material 'Hat'), red shirt ('Shirt'), black open vest ('Vest'), beard + moustache, no mask. Same skeleton and clips as models/characters/sardar.glb."
+    }
+  ]
+}
