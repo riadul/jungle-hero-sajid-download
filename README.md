@@ -10,6 +10,8 @@
 
 [![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20109%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.2.0/JungleHeroSajid-0.2.0-android.apk)
 
+[![Play on iPhone or in the browser](https://img.shields.io/badge/Play-iPhone%20%2F%20iPad%20%2F%20browser%20(free)-000000?style=for-the-badge&logo=apple&logoColor=white)](https://riadul.github.io/jungle-hero-sajid-download/)
+
 [![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Ubuntu%20%2F%20Linux-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=white)](https://snapcraft.io/jungle-hero-sajid)
 [![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(228%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.2.0/JungleHeroSajid-0.2.0-linux-x86_64.AppImage)
 [![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(160%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.2.0/jungle-hero-sajid_0.2.0_amd64.deb)
@@ -17,6 +19,16 @@
 **Windows:** open the downloaded `JungleHeroSajid-Setup-0.2.0-x64.exe` and follow
 the installer. If Windows shows *"Windows protected your PC"*, click
 **More info → Run anyway** (the installer isn't code-signed yet).
+
+**iPhone / iPad:** iPhones can't install apps from outside the App Store, so
+the game runs in **Safari** instead. Open
+**https://riadul.github.io/jungle-hero-sajid-download/** on the iPhone, tap the
+**Share** button (□↑) → **Add to Home Screen** → **Add**. A *Jungle Hero* icon
+appears on the Home Screen; open the game from there to play **full screen**,
+sideways, with the same touch controls as Android. The first start downloads
+about 140 MB (use Wi-Fi), later starts are quicker. Works best on an iPhone 11 or
+newer (iOS 16+). Progress is saved on the phone. The same link also works in any
+browser on a PC, Mac, tablet or Android phone.
 
 **Android:** on the phone, tap the green button above to download
 `JungleHeroSajid-0.2.0-android.apk`, then open it. If Android says apps from
@@ -53,6 +65,8 @@ Dublar Char, Nilkamal, all the way to Hiron Point, where Baba is waiting.
 
 | Platform | How |
 |---|---|
+| **iPhone / iPad** | open https://riadul.github.io/jungle-hero-sajid-download/ in Safari → Share → **Add to Home Screen** (plays full screen from the new icon) |
+| **Any browser** | https://riadul.github.io/jungle-hero-sajid-download/ (Chrome, Edge, Safari, Firefox) |
 | **Android 8+ phone or tablet** | download `JungleHeroSajid-<version>-android.apk` from the release and open it (allow "install unknown apps" once) |
 | **Windows 10/11** | `winget install AbacusIT.JungleHeroSajid`, or download `JungleHeroSajid-Setup-<version>-x64.exe` from the release. The installer isn't code-signed yet: if Windows SmartScreen appears, click **More info → Run anyway**. |
 | **Ubuntu / Linux (Snap Store)** | [snapcraft.io/jungle-hero-sajid](https://snapcraft.io/jungle-hero-sajid), or `sudo snap install jungle-hero-sajid` |
@@ -77,7 +91,8 @@ forest, ground, water and sky, new Sajid and Baba, new animals and boats.
 
 ## 📱 Phone needed
 
-Android 8.0 or newer, 4 GB RAM (6 GB recommended), about 400 MB free space,
+**iPhone / iPad:** iPhone 11 or newer (iOS 16+) recommended; older ones may be slow.
+**Android:** Android 8.0 or newer, 4 GB RAM (6 GB recommended), about 400 MB free space,
 any phone from the last few years (tested on a 4 GB Xiaomi). Graphics adjust
 to the phone by themselves (Settings → Graphics → Auto).
 
