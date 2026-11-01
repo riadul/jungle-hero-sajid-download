@@ -8,7 +8,7 @@
 
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20187%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.3.1/JungleHeroSajid-Setup-0.3.1-x64.exe)
 
-[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20109%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.3.1/JungleHeroSajid-0.3.1-android.apk)
+[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20109%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.3.2/JungleHeroSajid-0.3.2-android.apk)
 
 [![Play on iPhone or in the browser](https://img.shields.io/badge/Play-iPhone%20%2F%20iPad%20%2F%20browser%20(free)-000000?style=for-the-badge&logo=apple&logoColor=white)](https://riadul.github.io/jungle-hero-sajid-download/)
 
@@ -31,7 +31,7 @@ newer (iOS 16+). Progress is saved on the phone. The same link also works in any
 browser on a PC, Mac, tablet or Android phone.
 
 **Android:** on the phone, tap the green button above to download
-`JungleHeroSajid-0.3.1-android.apk`, then open it. If Android says apps from
+`JungleHeroSajid-0.3.2-android.apk`, then open it. If Android says apps from
 this source aren't allowed, tap **Settings** and turn on **Allow from this
 source** for your browser (or Files app), then go back and tap **Install**. If
 Play Protect warns about an unknown app, tap **More details → Install anyway**
@@ -87,7 +87,7 @@ Graphics adjust to your PC by themselves (Settings → Graphics → **Auto**): a
 gaming PC gets High or Ultra, a laptop with built-in graphics gets the bright
 **Cartoon Lite** look.
 
-**What's new in 0.3.1:** Sajid and Baba have realistic faces. Also since 0.3.0: Cartoon Lite graphics for weak PCs and phones; Auto
+**What's new:** on phones, a 🚶 auto-walk button on the right (the joystick hides while Sajid walks by himself; 0.3.2). Sajid and Baba have realistic faces (0.3.1). Also since 0.3.0: Cartoon Lite graphics for weak PCs and phones; Auto
 graphics that fit your device; a How to play screen on PC; optional auto-walk
 (press T) and camera assist; faster plants and shadows.
 
