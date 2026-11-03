@@ -4,19 +4,19 @@
 
 **A 3D cartoon adventure in the Sundarbans.** Published by **[Abacus IT](https://abacusitbd.com)**, Dhaka, Bangladesh.
 
-## ⬇️ Download (version 0.3.1, free) — real faces, runs on every PC and phone
+## ⬇️ Download (version 0.4.0, free) — the watchtower, a living Sundarbans, runs on every PC and phone
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20187%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.3.1/JungleHeroSajid-Setup-0.3.1-x64.exe)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20192%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/JungleHeroSajid-Setup-0.4.0-x64.exe)
 
-[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20109%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.3.2/JungleHeroSajid-0.3.2-android.apk)
+[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20125%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/JungleHeroSajid-0.4.0-android.apk)
 
 [![Play on iPhone or in the browser](https://img.shields.io/badge/Play-iPhone%20%2F%20iPad%20%2F%20browser%20(free)-000000?style=for-the-badge&logo=apple&logoColor=white)](https://riadul.github.io/jungle-hero-sajid-download/)
 
 [![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Ubuntu%20%2F%20Linux-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=white)](https://snapcraft.io/jungle-hero-sajid)
-[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(228%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.3.1/JungleHeroSajid-0.3.1-linux-x86_64.AppImage)
-[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(160%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.3.1/jungle-hero-sajid_0.3.1_amd64.deb)
+[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(244%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/JungleHeroSajid-0.4.0-linux-x86_64.AppImage)
+[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(170%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/jungle-hero-sajid_0.4.0_amd64.deb)
 
-**Windows:** open the downloaded `JungleHeroSajid-Setup-0.3.1-x64.exe` and follow
+**Windows:** open the downloaded `JungleHeroSajid-Setup-0.4.0-x64.exe` and follow
 the installer. If Windows shows *"Windows protected your PC"*, click
 **More info → Run anyway** (the installer isn't code-signed yet).
 
@@ -31,7 +31,7 @@ newer (iOS 16+). Progress is saved on the phone. The same link also works in any
 browser on a PC, Mac, tablet or Android phone.
 
 **Android:** on the phone, tap the green button above to download
-`JungleHeroSajid-0.3.2-android.apk`, then open it. If Android says apps from
+`JungleHeroSajid-0.4.0-android.apk`, then open it. If Android says apps from
 this source aren't allowed, tap **Settings** and turn on **Allow from this
 source** for your browser (or Files app), then go back and tap **Install**. If
 Play Protect warns about an unknown app, tap **More details → Install anyway**
@@ -87,9 +87,14 @@ Graphics adjust to your PC by themselves (Settings → Graphics → **Auto**): a
 gaming PC gets High or Ultra, a laptop with built-in graphics gets the bright
 **Cartoon Lite** look.
 
-**What's new:** on phones, a 🚶 auto-walk button on the right (the joystick hides while Sajid walks by himself; 0.3.2). Sajid and Baba have realistic faces (0.3.1). Also since 0.3.0: Cartoon Lite graphics for weak PCs and phones; Auto
-graphics that fit your device; a How to play screen on PC; optional auto-walk
-(press T) and camera assist; faster plants and shadows.
+**What's new in 0.4.0:** a more real, living Sundarbans — new plants and real
+swaying grass, silty rivers and tidal mud, monkeys, birds, butterflies, crabs and
+a river dolphin. In the last level Sajid climbs Hiron Point's watchtower and
+signals Baba's ship before the Great Tiger comes. New jumps and air attacks, a
+right-click over-the-shoulder aim zoom on PC, a brighter cartoon look for weak
+PCs and phones, modern menus, heavier punch sounds, and your name in the score
+table when you quit. Since 0.3: Cartoon Lite graphics, Auto graphics that fit
+your device, auto-walk (press T, or 🚶 on phones), realistic faces.
 
 ## 📱 Phone needed
 
@@ -108,6 +113,7 @@ to the phone by themselves (Settings → Graphics → Auto).
 ![Dead eye power](screenshots/06-dead-eye-power.jpg)
 ![The Great Tiger](screenshots/07-the-great-tiger.jpg)
 ![Nilkamal meadows](screenshots/08-nilkamal-meadows.jpg)
+![Signalling Baba's ship from the watchtower](screenshots/09-watchtower-signal.jpg)
 
 ## Controls
 
