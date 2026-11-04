@@ -8,7 +8,7 @@
 
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20192%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/JungleHeroSajid-Setup-0.4.0-x64.exe)
 
-[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20125%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/JungleHeroSajid-0.4.0-android.apk)
+[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20132%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.1/JungleHeroSajid-0.4.1-android.apk)
 
 [![Play on iPhone or in the browser](https://img.shields.io/badge/Play-iPhone%20%2F%20iPad%20%2F%20browser%20(free)-000000?style=for-the-badge&logo=apple&logoColor=white)](https://riadul.github.io/jungle-hero-sajid-download/)
 
@@ -31,7 +31,7 @@ newer (iOS 16+). Progress is saved on the phone. The same link also works in any
 browser on a PC, Mac, tablet or Android phone.
 
 **Android:** on the phone, tap the green button above to download
-`JungleHeroSajid-0.4.0-android.apk`, then open it. If Android says apps from
+`JungleHeroSajid-0.4.1-android.apk`, then open it. If Android says apps from
 this source aren't allowed, tap **Settings** and turn on **Allow from this
 source** for your browser (or Files app), then go back and tap **Install**. If
 Play Protect warns about an unknown app, tap **More details → Install anyway**
@@ -86,6 +86,8 @@ Dublar Char, Nilkamal, all the way to Hiron Point, where Baba is waiting.
 Graphics adjust to your PC by themselves (Settings → Graphics → **Auto**): a
 gaming PC gets High or Ultra, a laptop with built-in graphics gets the bright
 **Cartoon Lite** look.
+
+**What's new on phones (0.4.1):** auto-aim with the revolver (the crosshair glides onto the enemy in front, tap 🔫 to hit), sound fixed on iPhone, and the Level complete screen fits small phones.
 
 **What's new in 0.4.0:** a more real, living Sundarbans — new plants and real
 swaying grass, silty rivers and tidal mud, monkeys, birds, butterflies, crabs and
