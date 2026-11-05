@@ -4,19 +4,19 @@
 
 **A 3D cartoon adventure in the Sundarbans.** Published by **[Abacus IT](https://abacusitbd.com)**, Dhaka, Bangladesh.
 
-## ⬇️ Download (version 0.4.0, free) — the watchtower, a living Sundarbans, runs on every PC and phone
+## ⬇️ Download (version 0.5.0, free) — now runs smoothly even on weak phones and old PCs
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20192%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/JungleHeroSajid-Setup-0.4.0-x64.exe)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20200%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.0/JungleHeroSajid-Setup-0.5.0-x64.exe)
 
-[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20132%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.1/JungleHeroSajid-0.4.1-android.apk)
+[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20132%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.0/JungleHeroSajid-0.5.0-android.apk)
 
 [![Play on iPhone or in the browser](https://img.shields.io/badge/Play-iPhone%20%2F%20iPad%20%2F%20browser%20(free)-000000?style=for-the-badge&logo=apple&logoColor=white)](https://riadul.github.io/jungle-hero-sajid-download/)
 
 [![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Ubuntu%20%2F%20Linux-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=white)](https://snapcraft.io/jungle-hero-sajid)
-[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(244%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/JungleHeroSajid-0.4.0-linux-x86_64.AppImage)
-[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(170%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.4.0/jungle-hero-sajid_0.4.0_amd64.deb)
+[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(251%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.0/JungleHeroSajid-0.5.0-linux-x86_64.AppImage)
+[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(177%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.0/jungle-hero-sajid_0.5.0_amd64.deb)
 
-**Windows:** open the downloaded `JungleHeroSajid-Setup-0.4.0-x64.exe` and follow
+**Windows:** open the downloaded `JungleHeroSajid-Setup-0.5.0-x64.exe` and follow
 the installer. If Windows shows *"Windows protected your PC"*, click
 **More info → Run anyway** (the installer isn't code-signed yet).
 
@@ -31,7 +31,7 @@ newer (iOS 16+). Progress is saved on the phone. The same link also works in any
 browser on a PC, Mac, tablet or Android phone.
 
 **Android:** on the phone, tap the green button above to download
-`JungleHeroSajid-0.4.1-android.apk`, then open it. If Android says apps from
+`JungleHeroSajid-0.5.0-android.apk`, then open it. If Android says apps from
 this source aren't allowed, tap **Settings** and turn on **Allow from this
 source** for your browser (or Files app), then go back and tap **Install**. If
 Play Protect warns about an unknown app, tap **More details → Install anyway**
@@ -75,7 +75,7 @@ Dublar Char, Nilkamal, all the way to Hiron Point, where Baba is waiting.
 
 ## 💻 PC needed
 
-| | Minimum (Auto picks Cartoon Lite) | Recommended (High, 60 FPS) |
+| | Minimum (Auto picks Very Low or Cartoon Lite) | Recommended (High, 60 FPS) |
 |---|---|---|
 | OS | Windows 10 64-bit / Ubuntu 22.04 64-bit | Windows 11 / Ubuntu 24.04 |
 | CPU | 4 cores | 6 cores, 3 GHz |
@@ -85,7 +85,13 @@ Dublar Char, Nilkamal, all the way to Hiron Point, where Baba is waiting.
 
 Graphics adjust to your PC by themselves (Settings → Graphics → **Auto**): a
 gaming PC gets High or Ultra, a laptop with built-in graphics gets the bright
-**Cartoon Lite** look.
+**Cartoon Lite** look, and very old PCs the flat **Very Low (Toon)** look.
+
+**What's new in 0.5.0:** **Very Low (Toon)** graphics, a flat 2D-cartoon look
+(two-tone shading, outlines, round cartoon tree tops) that runs 3–6× faster than
+Cartoon Lite. Weak phones (for example a Redmi 13) and old PCs get it by
+themselves on Auto, or choose it in Settings → Graphics. On phones, tips no longer
+cover Sajid and the loading screen is clean. Everything else is unchanged.
 
 **What's new on phones (0.4.1):** auto-aim with the revolver (the crosshair glides onto the enemy in front, tap 🔫 to hit), sound fixed on iPhone, and the Level complete screen fits small phones.
 
@@ -102,7 +108,7 @@ your device, auto-walk (press T, or 🚶 on phones), realistic faces.
 
 **iPhone / iPad:** iPhone 11 or newer (iOS 16+) recommended; older ones may be slow.
 **Android:** Android 8.0 or newer, 4 GB RAM (6 GB recommended), about 400 MB free space,
-any phone from the last few years (tested on a 4 GB Xiaomi). Graphics adjust
+any phone from the last few years (tested on a 4 GB Xiaomi and a Redmi 13). Graphics adjust
 to the phone by themselves (Settings → Graphics → Auto).
 
 ## Screenshots
