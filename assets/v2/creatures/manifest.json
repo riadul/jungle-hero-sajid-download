@@ -1,0 +1,950 @@
+{
+ "area": "creatures",
+ "assets": [
+  {
+   "tris": 8574,
+   "bbox": [
+    -0.189,
+    0.0,
+    -0.109,
+    0.189,
+    0.128,
+    0.204
+   ],
+   "meshes": [
+    "Crab"
+   ],
+   "materials": [
+    "CrabSkin",
+    "Eye"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 0.9
+    },
+    {
+     "name": "Death",
+     "duration": 1.5
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 2
+    },
+    {
+     "name": "Walk",
+     "duration": 0.8
+    }
+   ],
+   "bones": 26,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 949896,
+   "name": "crab",
+   "file": "crab.glb",
+   "notes": "Mud crab ~0.30 m wide incl. legs; walks sideways (Walk clip steps along X in place)."
+  },
+  {
+   "tris": 11784,
+   "bbox": [
+    -0.714,
+    -0.008,
+    -2.199,
+    0.714,
+    0.466,
+    1.815
+   ],
+   "meshes": [
+    "Crocodile"
+   ],
+   "materials": [
+    "CrocodileSkin",
+    "Claw",
+    "Teeth",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 2.2
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Swim",
+     "duration": 2
+    },
+    {
+     "name": "Walk",
+     "duration": 1.6
+    }
+   ],
+   "bones": 27,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 2379612,
+   "name": "crocodile",
+   "file": "crocodile.glb",
+   "notes": "Saltwater crocodile, 4.0 m nose to tail at scale 1; rest pose is the high-walk stance (belly 9 cm off the ground). Attack lunges the root 0.65 m forward."
+  },
+  {
+   "tris": 5280,
+   "bbox": [
+    -0.381,
+    0.056,
+    -1.078,
+    0.381,
+    0.476,
+    1.025
+   ],
+   "meshes": [
+    "Dolphin"
+   ],
+   "materials": [
+    "DolphinSkin",
+    "Teeth",
+    "Eye"
+   ],
+   "animations": [
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Surface",
+     "duration": 3.2
+    },
+    {
+     "name": "Swim",
+     "duration": 2
+    }
+   ],
+   "bones": 11,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 447064,
+   "name": "dolphin",
+   "file": "dolphin.glb",
+   "notes": "Ganges river dolphin, ~2.0 m long. The body centreline is 0.25 m above the root; the game sets the depth and moves it along the river. All clips are in place with no root travel. Surface (one-shot, 3.2 s) is rotation only: nose up and beak out (0-0.9 s, blow at ~0.8 s), roll over the arch with the back and dorsal hump highest (0.9-1.9 s), nose-down dive, level again at the end."
+  },
+  {
+   "tris": 5728,
+   "bbox": [
+    -0.525,
+    -0.001,
+    -0.21,
+    0.525,
+    0.604,
+    0.237
+   ],
+   "meshes": [
+    "Egret"
+   ],
+   "materials": [
+    "EgretSkin",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Fly",
+     "duration": 0.7
+    },
+    {
+     "name": "Glide",
+     "duration": 3
+    },
+    {
+     "name": "Idle",
+     "duration": 5
+    },
+    {
+     "name": "Peck",
+     "duration": 1.2
+    },
+    {
+     "name": "Walk",
+     "duration": 1.6
+    }
+   ],
+   "bones": 21,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1070184,
+   "name": "egret",
+   "file": "egret.glb",
+   "notes": "Egret, ~0.6 m tall, ~1 m wingspan. Idle/Walk/Peck: feet on y=0, in place. Fly/Glide keep the root near the ground (body at standing height) so the game sets the flight altitude."
+  },
+  {
+   "tris": 2158,
+   "bbox": [
+    -0.03,
+    0.01,
+    -0.158,
+    0.03,
+    0.098,
+    0.152
+   ],
+   "meshes": [
+    "Fish"
+   ],
+   "materials": [
+    "FishSkin",
+    "Iris",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Jump",
+     "duration": 1
+    },
+    {
+     "name": "Swim",
+     "duration": 0.8
+    }
+   ],
+   "bones": 7,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 589416,
+   "name": "fish",
+   "file": "fish.glb",
+   "notes": "Grey mullet, 0.3 m long. The body centreline is 0.045 m above the root (belly ~1 cm above y=0); the game sets the depth. Swim is in place. Jump is a one-shot pose sequence with no root travel: curl and tail flick (0-0.3 s), body pitches nose-up -> level -> nose-down through the arc (0.3-0.85 s), ends nose-down for the splash; the game moves it along the arc."
+  },
+  {
+   "tris": 4146,
+   "bbox": [
+    -0.055,
+    -0.001,
+    -0.055,
+    0.055,
+    0.05,
+    0.069
+   ],
+   "meshes": [
+    "Frog"
+   ],
+   "materials": [
+    "FrogSkin",
+    "Iris",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Croak",
+     "duration": 2
+    },
+    {
+     "name": "Hop",
+     "duration": 1
+    },
+    {
+     "name": "Idle",
+     "duration": 3
+    },
+    {
+     "name": "Swim",
+     "duration": 1.2
+    }
+   ],
+   "bones": 20,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 869432,
+   "name": "frog",
+   "file": "frog.glb",
+   "notes": "Indian bullfrog, ~0.12 m long sitting. Hop stays in place horizontally (the game moves the root ~0.35 m forward during it): the root rises ~0.07 m and lands back on y=0 at the end. Swim is in place with the body level at the root height (the game sets the water depth). Idle/Croak sit on y=0."
+  },
+  {
+   "tris": 8820,
+   "bbox": [
+    -0.082,
+    0.0,
+    -0.377,
+    0.082,
+    0.464,
+    0.179
+   ],
+   "meshes": [
+    "Junglefowl"
+   ],
+   "materials": [
+    "JunglefowlSkin",
+    "Claw",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Death",
+     "duration": 1.5
+    },
+    {
+     "name": "Flap",
+     "duration": 1
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Peck",
+     "duration": 2
+    },
+    {
+     "name": "Run",
+     "duration": 0.4
+    },
+    {
+     "name": "Walk",
+     "duration": 0.8
+    }
+   ],
+   "bones": 19,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1177260,
+   "name": "junglefowl",
+   "file": "junglefowl.glb",
+   "notes": "Red junglefowl rooster, ~0.45 m to the comb. In-place clips (the game moves the root); feet on y=0 in Idle/Walk/Run/Peck/Hit. Flap is a one-shot startle hop: the root rises ~0.12 m and lands back on y=0. Death ends lying on its side."
+  },
+  {
+   "tris": 7524,
+   "bbox": [
+    -0.068,
+    0.0,
+    -0.219,
+    0.067,
+    0.368,
+    0.154
+   ],
+   "meshes": [
+    "JunglefowlHen"
+   ],
+   "materials": [
+    "JunglefowlHenSkin",
+    "Claw",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Death",
+     "duration": 1.5
+    },
+    {
+     "name": "Flap",
+     "duration": 1
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Peck",
+     "duration": 2
+    },
+    {
+     "name": "Run",
+     "duration": 0.4
+    },
+    {
+     "name": "Walk",
+     "duration": 0.8
+    }
+   ],
+   "bones": 19,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1235636,
+   "name": "junglefowl_hen",
+   "file": "junglefowl_hen.glb",
+   "notes": "Red junglefowl hen, ~0.36 m tall. In-place clips; feet on y=0 except Flap (one-shot hop, root rises ~0.12 m and lands back on y=0) and Death. Same rig/clips as junglefowl."
+  },
+  {
+   "tris": 5944,
+   "bbox": [
+    -0.174,
+    0.0,
+    -0.095,
+    0.174,
+    0.11,
+    0.121
+   ],
+   "meshes": [
+    "Kingfisher"
+   ],
+   "materials": [
+    "KingfisherSkin",
+    "Eye"
+   ],
+   "animations": [
+    {
+     "name": "Dive",
+     "duration": 1
+    },
+    {
+     "name": "Fly",
+     "duration": 0.267
+    },
+    {
+     "name": "Idle",
+     "duration": 3
+    }
+   ],
+   "bones": 17,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1064256,
+   "name": "kingfisher",
+   "file": "kingfisher.glb",
+   "notes": "White-throated kingfisher, ~0.22 m long, ~0.35 m wingspan. Idle perches with the feet on y=0. Fly and Dive keep the root near the ground (the game sets altitude and moves the bird along the plunge); Dive is a one-shot that ends holding the plunge pose."
+  },
+  {
+   "tris": 11666,
+   "bbox": [
+    -0.598,
+    -0.003,
+    -0.33,
+    0.598,
+    0.289,
+    0.254
+   ],
+   "meshes": [
+    "Kite"
+   ],
+   "materials": [
+    "KiteSkin",
+    "Talon",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.1
+    },
+    {
+     "name": "Death",
+     "duration": 1.4
+    },
+    {
+     "name": "Fly",
+     "duration": 0.6
+    },
+    {
+     "name": "Glide",
+     "duration": 3
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    }
+   ],
+   "bones": 17,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1174072,
+   "name": "kite",
+   "file": "kite.glb",
+   "notes": "Brahminy kite, 1.2 m wingspan. Feet on y=0 in every clip; Fly/Glide/Attack keep the root near the ground so the game sets the flight altitude."
+  },
+  {
+   "tris": 11928,
+   "bbox": [
+    -0.123,
+    -0.001,
+    -0.356,
+    0.123,
+    0.562,
+    0.389
+   ],
+   "meshes": [
+    "Macaque"
+   ],
+   "materials": [
+    "MacaqueSkin",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1
+    },
+    {
+     "name": "Chatter",
+     "duration": 2
+    },
+    {
+     "name": "Clap",
+     "duration": 1.6
+    },
+    {
+     "name": "Death",
+     "duration": 1.5
+    },
+    {
+     "name": "Eat",
+     "duration": 3
+    },
+    {
+     "name": "Hit",
+     "duration": 0.5
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Leap",
+     "duration": 1.3
+    },
+    {
+     "name": "Run",
+     "duration": 0.5
+    },
+    {
+     "name": "Scratch",
+     "duration": 3
+    },
+    {
+     "name": "Sit",
+     "duration": 4
+    },
+    {
+     "name": "Walk",
+     "duration": 1
+    }
+   ],
+   "bones": 23,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1345560,
+   "name": "macaque",
+   "file": "macaque.glb",
+   "notes": "Rhesus macaque. Stands ~0.5 m on all fours (rest pose); Idle sits up (~0.55 m). Sit/Scratch/Chatter/Eat/Clap are seated loops (feet and rump on y=0). Leap is a one-shot jump in place: the root rises ~0.3 m and lands back on y=0, no forward travel (the game moves the root)."
+  },
+  {
+   "tris": 4426,
+   "bbox": [
+    -0.027,
+    -0.002,
+    -0.094,
+    0.027,
+    0.04,
+    0.061
+   ],
+   "meshes": [
+    "Mudskipper"
+   ],
+   "materials": [
+    "MudskipperSkin",
+    "Iris",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Display",
+     "duration": 2
+    },
+    {
+     "name": "Idle",
+     "duration": 3
+    },
+    {
+     "name": "Skip",
+     "duration": 0.6
+    }
+   ],
+   "bones": 13,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 642688,
+   "name": "mudskipper",
+   "file": "mudskipper.glb",
+   "notes": "Blue-spotted mudskipper, ~0.15 m long. All clips in place. Skip and Display hop: the root rises (~0.03 / ~0.02 m) and is back on y=0 at the end of the clip; Idle lies on y=0."
+  },
+  {
+   "tris": 9524,
+   "bbox": [
+    -0.113,
+    -0.002,
+    -2.5,
+    0.113,
+    0.188,
+    2.5
+   ],
+   "meshes": [
+    "Python"
+   ],
+   "materials": [
+    "PythonSkin",
+    "Eye",
+    "Pupil",
+    "Tongue"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 1.6
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Slither",
+     "duration": 2.4
+    },
+    {
+     "name": "Walk",
+     "duration": 2.4
+    }
+   ],
+   "bones": 26,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 899300,
+   "name": "python",
+   "file": "python.glb",
+   "notes": "Burmese python, 5 m. Rest pose lies straight along +Z (head at +Z)."
+  },
+  {
+   "tris": 2378,
+   "bbox": [
+    -0.044,
+    0.0,
+    -0.021,
+    0.044,
+    0.022,
+    0.034
+   ],
+   "meshes": [
+    "RedCrab"
+   ],
+   "materials": [
+    "RedCrabSkin",
+    "Eye"
+   ],
+   "animations": [
+    {
+     "name": "Hide",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 3
+    },
+    {
+     "name": "Walk",
+     "duration": 0.4
+    },
+    {
+     "name": "Wave",
+     "duration": 1.6
+    }
+   ],
+   "bones": 28,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 452424,
+   "name": "redcrab",
+   "file": "redcrab.glb",
+   "notes": "Red fiddler crab (male), ~4 cm carapace, ~9 cm across the legs and claw. All clips in place, legs on y=0; Walk steps sideways along X. Hide is a one-shot that ends with the body flat on y=0 and the legs tucked (the game sinks it into the mud)."
+  },
+  {
+   "tris": 8368,
+   "bbox": [
+    -0.313,
+    0.001,
+    -0.385,
+    0.312,
+    0.246,
+    0.451
+   ],
+   "meshes": [
+    "Turtle"
+   ],
+   "materials": [
+    "TurtleSkin",
+    "Claw",
+    "Eye",
+    "Pupil"
+   ],
+   "animations": [
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 3
+    },
+    {
+     "name": "Swim",
+     "duration": 1.6
+    },
+    {
+     "name": "Walk",
+     "duration": 1.6
+    }
+   ],
+   "bones": 18,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 1476976,
+   "name": "turtle",
+   "file": "turtle.glb",
+   "notes": "River terrapin, carapace 0.6 m long, 0.3 m tall standing."
+  },
+  {
+   "tris": 5588,
+   "bbox": [
+    -0.028,
+    -0.001,
+    -0.75,
+    0.028,
+    0.046,
+    0.75
+   ],
+   "meshes": [
+    "WaterSnake"
+   ],
+   "materials": [
+    "WaterSnakeSkin",
+    "Eye",
+    "Pupil",
+    "Tongue"
+   ],
+   "animations": [
+    {
+     "name": "Attack",
+     "duration": 1.3
+    },
+    {
+     "name": "Death",
+     "duration": 1.6
+    },
+    {
+     "name": "Hit",
+     "duration": 0.6
+    },
+    {
+     "name": "Idle",
+     "duration": 4
+    },
+    {
+     "name": "Slither",
+     "duration": 1.1
+    },
+    {
+     "name": "Walk",
+     "duration": 1.1
+    }
+   ],
+   "bones": 22,
+   "attributes": [
+    "COLOR_0",
+    "JOINTS_0",
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0",
+    "WEIGHTS_0"
+   ],
+   "images": [
+    "image/png",
+    "image/jpeg"
+   ],
+   "bytes": 461112,
+   "name": "watersnake",
+   "file": "watersnake.glb",
+   "notes": "Checkered keelback water snake, 1.5 m."
+  }
+ ]
+}

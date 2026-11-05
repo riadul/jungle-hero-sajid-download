@@ -1,0 +1,24 @@
+{
+ "name": "Jungle Hero Sajid",
+ "short_name": "Jungle Hero",
+ "description": "A Bangladeshi 3D adventure in the Sundarbans. Help little Sajid find Baba!",
+ "start_url": "./",
+ "scope": "./",
+ "display": "fullscreen",
+ "orientation": "landscape",
+ "background_color": "#0e4022",
+ "theme_color": "#0e4022",
+ "icons": [
+  {
+   "src": "web/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "web/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
