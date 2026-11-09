@@ -4,19 +4,19 @@
 
 **A 3D cartoon adventure in the Sundarbans.** Published by **[Abacus IT](https://abacusitbd.com)**, Dhaka, Bangladesh.
 
-## ⬇️ Download (version 0.5.1, free) — better fights, a dodge roll, Hard mode and a more real tiger
+## ⬇️ Download (version 0.5.2, free) — smooth on weak phones, automatically
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20200%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.1/JungleHeroSajid-Setup-0.5.1-x64.exe)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20200%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.2/JungleHeroSajid-Setup-0.5.2-x64.exe)
 
-[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20132%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.1/JungleHeroSajid-0.5.1-android.apk)
+[![Download for Android](https://img.shields.io/badge/Download-Android%20phone%20(.apk%2C%20132%20MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.2/JungleHeroSajid-0.5.2-android.apk)
 
 [![Play on iPhone or in the browser](https://img.shields.io/badge/Play-iPhone%20%2F%20iPad%20%2F%20browser%20(free)-000000?style=for-the-badge&logo=apple&logoColor=white)](https://riadul.github.io/jungle-hero-sajid-download/)
 
 [![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Ubuntu%20%2F%20Linux-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=white)](https://snapcraft.io/jungle-hero-sajid)
-[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(251%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.1/JungleHeroSajid-0.5.1-linux-x86_64.AppImage)
-[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(177%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.1/jungle-hero-sajid_0.5.1_amd64.deb)
+[![Download AppImage](https://img.shields.io/badge/Download-Linux%20AppImage%20(251%20MB)-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.2/JungleHeroSajid-0.5.2-linux-x86_64.AppImage)
+[![Download .deb](https://img.shields.io/badge/Download-Ubuntu%2FDebian%20.deb%20(177%20MB)-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.2/jungle-hero-sajid_0.5.2_amd64.deb)
 
-**Windows:** open the downloaded `JungleHeroSajid-Setup-0.5.1-x64.exe` and follow
+**Windows:** open the downloaded `JungleHeroSajid-Setup-0.5.2-x64.exe` and follow
 the installer. If Windows shows *"Windows protected your PC"*, click
 **More info → Run anyway** (the installer isn't code-signed yet).
 
@@ -31,7 +31,7 @@ newer (iOS 16+). Progress is saved on the phone. The same link also works in any
 browser on a PC, Mac, tablet or Android phone.
 
 **Android:** on the phone, tap the green button above to download
-`JungleHeroSajid-0.5.1-android.apk`, then open it. If Android says apps from
+`JungleHeroSajid-0.5.2-android.apk`, then open it. If Android says apps from
 this source aren't allowed, tap **Settings** and turn on **Allow from this
 source** for your browser (or Files app), then go back and tap **Install**. If
 Play Protect warns about an unknown app, tap **More details → Install anyway**
@@ -86,6 +86,11 @@ Dublar Char, Nilkamal, all the way to Hiron Point, where Baba is waiting.
 Graphics adjust to your PC by themselves (Settings → Graphics → **Auto**): a
 gaming PC gets High or Ultra, a laptop with built-in graphics gets the bright
 **Cartoon Lite** look, and very old PCs the flat **Very Low (Toon)** look.
+
+**What's new in 0.5.2:** much smoother on weak phones, with **nothing to set**: Auto
+graphics repairs old settings by itself, characters and forests are drawn with far less
+work (a Redmi 13 went from 14 to about **40 FPS**), and phones get **smooth edges** instead
+of stair-step pixels. PCs look the same.
 
 **What's new in 0.5.1:** a quick **dodge roll** (A/D + Space, or Z), a **flying punch**
 that really lands, enemies that lunge, circle and come again, a bigger crosshair, an
