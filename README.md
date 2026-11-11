@@ -4,7 +4,7 @@
 
 **A 3D cartoon adventure in the Sundarbans.** Published by **[Abacus IT](https://abacusitbd.com)**, Dhaka, Bangladesh.
 
-## ⬇️ Download (version 0.5.3, free) — steadier steps, smooth on weak phones
+## ⬇️ Download (version 0.5.3, free): steadier steps, smooth on weak phones
 
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%2010%2F11%20(.exe%2C%20200%20MB)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/riadul/jungle-hero-sajid-download/releases/download/v0.5.3/JungleHeroSajid-Setup-0.5.3-x64.exe)
 
@@ -110,7 +110,7 @@ cover Sajid and the loading screen is clean. Everything else is unchanged.
 
 **What's new on phones (0.4.1):** auto-aim with the revolver (the crosshair glides onto the enemy in front, tap 🔫 to hit), sound fixed on iPhone, and the Level complete screen fits small phones.
 
-**What's new in 0.4.0:** a more real, living Sundarbans — new plants and real
+**What's new in 0.4.0:** a more real, living Sundarbans: new plants and real
 swaying grass, silty rivers and tidal mud, monkeys, birds, butterflies, crabs and
 a river dolphin. In the last level Sajid climbs Hiron Point's watchtower and
 signals Baba's ship before the Great Tiger comes. New jumps and air attacks, a
