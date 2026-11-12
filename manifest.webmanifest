@@ -1,0 +1,18 @@
+{
+ "name": "Jungle Hero Sajid",
+ "short_name": "Jungle Hero",
+ "lang": "en",
+ "dir": "ltr",
+ "categories": ["games", "kids", "entertainment"],
+ "description": "A Bangladeshi 3D adventure in the Sundarbans. Help little Sajid find Baba! · সুন্দরবনে হারিয়ে যাওয়া সাজিদকে বাবার কাছে ফিরিয়ে দাও!",
+ "start_url": "./play/",
+ "scope": "./",
+ "display": "fullscreen",
+ "orientation": "landscape",
+ "background_color": "#0e4022",
+ "theme_color": "#0e4022",
+ "icons": [
+  { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+  { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+ ]
+}
